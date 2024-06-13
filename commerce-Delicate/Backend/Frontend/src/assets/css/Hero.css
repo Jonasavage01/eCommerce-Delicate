@@ -1,0 +1,76 @@
+.hero-section {
+    width: 100%;
+    height: 100vh;
+    background: url('../images/hero/Hero.jpg') no-repeat center center/cover; /* Asegúrate de que la ruta sea correcta */
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5); /* Oscurece la imagen */
+}
+
+.content {
+    z-index: 2;
+}
+
+.small-title {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.main-title {
+    color: #fff;
+    font-weight: bold;
+    font-size: 4.5rem;
+}
+
+.custom-btn {
+    background-color: #32cd32; /* Light green */
+    color: #fff;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.custom-btn:hover {
+    background-color: #fff;
+    color: #32cd32;
+    transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-section {
+        height: 80vh; /* Adjust height for smaller screens */
+    }
+
+    .small-title {
+        font-size: 1.2rem;
+    }
+
+    .main-title {
+        font-size: 2rem;
+    }
+
+    .custom-btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-section {
+        height: 70vh; /* Adjust height for extra small screens */
+    }
+
+    .small-title {
+        font-size: 1rem;
+    }
+
+    .main-title {
+        font-size: 1.5rem;
+    }
+
+    .custom-btn {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
