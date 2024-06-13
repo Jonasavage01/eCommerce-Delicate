@@ -1,0 +1,152 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% block title %}Auctions{% endblock %}</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="{% static 'auctions/styles.css' %}" rel="stylesheet">
+    <link href="{% static 'auctions/easy-responsive-tabs.css' %}" rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="{% static 'auctions/shop.css' %}" type="text/css" />
+    <link rel="stylesheet" href="{% static 'auctions/create_listing.css' %}" type="text/css" />
+    <link rel="stylesheet" href="{% static 'auctions/bootstrap.css' %}" type="text/css" />
+</head>
+<body>
+    <div>
+        {% if user.is_authenticated %}
+            Signed in as <strong>{{ user.username }}</strong>.
+        {% else %}
+            Not signed in.
+        {% endif %}
+    </div>
+
+    <div class="hero_area">
+        <!-- header section starts -->
+        <header class="header_section">
+           <div class="container">
+              <nav class="navbar navbar-expand-lg custom_nav-container ">
+                 <a class="navbar-brand" href="{% url 'index' %}">
+                     <img width="250" src="{% static 'logo.png' %}" alt="#" />
+                 </a>
+                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                 </button>
+                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                       <li class="nav-item {% if request.path == '/' %}active{% endif %}">
+                          <a class="nav-link" href="{% url 'index' %}">Active Listings <span class="sr-only">(current)</span></a>
+                       </li>
+                       <li class="nav-item {% if request.path == '/listing' %}active{% endif %}">
+                          <a class="nav-link" href="{% url 'listing' %}">Create Listing</a>
+                       </li>
+                       <li class="nav-item {% if request.path == '/watchlist' %}active{% endif %}">
+                          <a class="nav-link" href="{% url 'watchlist' %}">My Wishlist</a>
+                       </li>
+                       {% if user.is_authenticated %}
+                            <li class="nav-item">
+                                <a class="nav-link" href="{% url 'logout' %}">Log Out</a>
+                            </li>
+                        {% else %}
+                            <li class="nav-item">
+                                <a class="nav-link" href="{% url 'login' %}">Log In</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{% url 'register' %}">Register</a>
+                            </li>
+                        {% endif %}
+                    </ul>
+                 </div>
+              </nav>
+           </div>
+        </header>
+    </div>
+    <hr>
+    <div class="container">
+        {% block body %}
+        {% endblock %}
+    </div>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<!-- jQuery -->
+<script src="{% static 'js/jquery-2.2.3.min.js' %}"></script>
+<!-- Bootstrap -->
+<script src="{% static 'js/bootstrap.js' %}"></script>
+
+<!-- Easy Responsive Tabs -->
+<script src="{% static 'js/easy-responsive-tabs.js' %}"></script>
+
+<!-- image-zoom -->
+<script src="{% static 'js/imagezoom.js' %}"></script>
+
+<script>
+    // JavaScript to toggle between "Add to Wishlist" and "Remove from Wishlist" buttons
+    document.getElementById('add-to-wishlist-form').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent form submission
+        document.getElementById('add-to-wishlist-form').style.display = 'none'; // Hide "Add to Wishlist" button
+        document.getElementById('remove-from-wishlist-form').style.display = 'block'; // Show "Remove from Wishlist" button
+        // Submit the form
+        fetch(event.target.action, {
+            method: 'POST',
+            body: new FormData(event.target)
+        }).then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            // Handle response if needed
+        }).catch(error => {
+            console.error('Error submitting form:', error);
+        });
+    });
+
+    // JavaScript to toggle between "Remove from Wishlist" and "Add to Wishlist" buttons
+    document.getElementById('remove-from-wishlist-form').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent form submission
+        document.getElementById('remove-from-wishlist-form').style.display = 'none'; // Hide "Remove from Wishlist" button
+        document.getElementById('add-to-wishlist-form').style.display = 'block'; // Show "Add to Wishlist" button
+        // Submit the form
+        fetch(event.target.action, {
+            method: 'POST',
+            body: new FormData(event.target)
+        }).then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            // Handle response if needed
+        }).catch(error => {
+            console.error('Error submitting form:', error);
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function() {
+        $('#horizontalTab').easyResponsiveTabs({
+            type: 'default', //Types: default, vertical, accordion           
+            width: 'auto', //auto or any width like 600px
+            fit: true, // 100% fit in a container
+            closed: 'accordion', // Start closed if in accordion view
+            activate: function(event) { // Callback function if tab is switched
+                var $tab = $(this);
+                var $info = $('#tabInfo');
+                var $name = $('span', $info);
+                $name.text($tab.text());
+                $info.show();
+            }
+        });
+        $('#verticalTab').easyResponsiveTabs({
+            type: 'vertical',
+            width: 'auto',
+            fit: true
+        });
+    });
+</script>
+
+</body>
+</html>

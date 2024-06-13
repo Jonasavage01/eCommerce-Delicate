@@ -1,0 +1,171 @@
+{% extends "auctions/layout.html" %}
+{% load static %}
+{% block body %}
+<section class="banner-bottom-wthreelayouts py-lg-5 py-3">
+    <div class="container">
+        <div class="inner-sec-shop pt-lg-4 pt-3">
+            <div class="row">
+                <div class="col-lg-4 single-right-left">
+                    <div class="grid images_3_of_2">
+                        <div class="flexslider1">
+                            <ul class="slides">
+                                <li data-thumb="{{ listing.image.url }}">
+                                    <div class="thumb-image"> <img src="{{ listing.image.url }}" data-imagezoom="true" class="img-fluid" alt="{{ listing.title }}"> </div>
+                                </li>
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-8 single-right-left simpleCart_shelfItem">
+                    <h3>{{ listing.title }}</h3>
+                    <p><span class="item_price">Price: ${{ listing.price }}</span></p>
+                    <div class="occasion-cart">
+                        <div class="googles single-item singlepage">
+                            {% if is_on_watchlist %}
+                                <!-- Remove from Wishlist button -->
+                                <form action="{% url 'remove_from_watchlist' listing_id=listing.id %}" method="post">
+                                    {% csrf_token %}
+                                    <button type="submit" class="btn btn-danger">
+                                        Remove from Wishlist
+                                    </button>
+                                </form>
+                            {% else %}
+                                <!-- Add to Wishlist button -->
+                                <form action="{% url 'add_to_watchlist' listing_id=listing.id %}" method="post">
+                                    {% csrf_token %}
+                                    <button type="submit" class="btn btn-primary">
+                                        Add to Wishlist
+                                    </button>
+                                </form>
+                            {% endif %}
+                        </div>
+                    </div>
+
+                    {% if is_listing_owner %}
+                    {% if listing.is_active %}
+                        <!-- Close Auction Form -->
+                        <form id="close-auction-form" action="{% url 'close_auction' listing_id=listing.id %}" method="post">
+                            {% csrf_token %}
+                            <button type="submit" class="btn btn-danger mt-3" onclick="closeAuction()">
+                                Close Auction
+                            </button>
+                        </form>
+                    {% else %}
+                        <p class="text-danger mt-3">This auction is closed.</p>
+                    {% endif %}
+                {% endif %}
+                
+                <div class="current-bid-amount">
+                    <h4>Current Bid Amount: ${{ current_bid_amount }}</h4>
+                </div>
+                    <!-- Place Bid Form -->
+                    <form action="{% url 'place_bid' listing_id=listing.id %}" method="post">
+                        {% csrf_token %}
+                        <div class="form-group mt-3">
+                            <label for="bid_amount">Bid Amount:</label>
+                            <div class="input-group">
+                                <input type="number" id="bid_amount" name="bid_amount" class="form-control" step="0.01" min="{{ current_bid_amount|add:'1.00' }}" required>
+                                <div class="input-group-append">
+                                    <button type="submit" class="btn btn-primary">Place Bid</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                    {% if not listing.is_active and listing.highest_bidder == user %}
+                    <p class="text-success">Congratulations! You have won this auction.</p>
+                {% endif %}    
+
+                    {% if message %}
+                    <div class="alert alert-info">{{ message }}</div>
+                {% endif %}
+
+                    <!-- Tab Content -->
+                    <div class="clearfix"></div>
+                    <div class="responsive_tabs">
+                        <!-- Tabs Content Goes Here -->
+                          <!--/tabs-->
+                <div class="responsive_tabs">
+                    <div id="horizontalTab">
+                        <ul class="resp-tabs-list">
+                            <li>Description</li>
+                            <li>Reviews</li>
+                            <li>Information</li>
+                        </ul>
+                        <div class="resp-tabs-container">
+                            <!-- Description tab -->
+                            <div class="tab1">
+                                <div class="single_page">
+                                    <h6>{{ listing.title }}</h6>
+                                    <p>{{ listing.description }}</p>
+                                    <!-- Additional description if needed -->
+                                </div>
+                            </div>
+                           
+                            <div class="tab2">
+                                <div class="single_page">
+                                    <h6 class="mb-4">Comments</h6>
+                                    <!-- Comment section -->
+                                    <ul class="list-unstyled">
+                                        {% for comment in comments %}
+                                        <li class="media mb-3">
+                                            <img src="{{ comment.user.profile_picture_url }}" class="mr-3 rounded-circle" alt="User Image" style="width: 64px; height: 64px;">
+                                            <div class="media-body">
+                                                <h5 class="mt-0 mb-1">{{ comment.user.username }}</h5>
+                                                <p>{{ comment.text }}</p>
+                                                <!-- Reply functionality can be added here if needed in the future -->
+                                            </div>
+                                        </li>
+                                        {% endfor %}
+                                    </ul>
+                                    <!-- Add comment form -->
+                                    {% if user.is_authenticated %}
+                                    <div class="add-review">
+                                        <h4>Add a Comment</h4>
+                                        <form method="post" class="mb-4">
+                                            {% csrf_token %}
+                                            <div class="form-group">
+                                                {{ comment_form.text }}
+                                            </div>
+                                            <button type="submit" class="btn btn-primary">Add Comment</button>
+                                        </form>
+                                    </div>
+                                    {% else %}
+                                    <p>Please <a href="{% url 'login' %}" class="text-primary">log in</a> to add comments.</p>
+                                    {% endif %}
+                                </div>
+                            </div>
+                            <!-- Information tab -->
+                            <div class="tab3">
+                                <div class="single_page">
+                                    <h6>{{ listing.title }}</h6>
+                                    <p>{{ listing.description }}</p>
+                                    <!-- Additional information if needed -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script>
+    function closeAuction() {
+        if (confirm('Are you sure you want to close this auction?')) {
+            document.getElementById('close-auction-form').submit();
+            // Redirect to a different page here
+            window.location.href = 'index.html';
+        }
+    }
+</script>
+
+{% endblock %}
+
+
