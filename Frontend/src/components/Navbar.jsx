@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import logo from '../assets/images/logo.png'; 
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -8,6 +8,7 @@ import '../assets/css/Navbar.css';
 const Navbar = () => {
     const [searchModalVisible, setSearchModalVisible] = useState(false);
     const [navbarCollapsed, setNavbarCollapsed] = useState(true);
+    const [scrolled, setScrolled] = useState(false);
 
     const toggleSearchModal = () => {
         setSearchModalVisible(!searchModalVisible);
@@ -17,10 +18,25 @@ const Navbar = () => {
         setNavbarCollapsed(!navbarCollapsed);
     };
 
+    const handleScroll = () => {
+        if (window.scrollY > 50) {
+            setScrolled(true);
+        } else {
+            setScrolled(false);
+        }
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     return (
         <>
             {/* Header */}
-            <nav className={`navbar navbar-expand-lg navbar-dark fixed-top ${navbarCollapsed ? '' : 'menu-open'}`}>
+            <nav className={`navbar navbar-expand-lg navbar-dark fixed-top ${navbarCollapsed ? '' : 'menu-open'} ${scrolled ? 'scrolled' : ''}`}>
                 <div className="container d-flex justify-content-between">
                     <a className="navbar-brand" href="index.html">
                         <img src={logo} alt="logo" className="logo"/>
