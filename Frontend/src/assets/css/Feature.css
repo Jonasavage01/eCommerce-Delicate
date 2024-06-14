@@ -1,7 +1,13 @@
 /* FeatureCard.css */
+.container-fluid{
+  background-color: #f3f3f3;
+}
+
 .feature-card {
   border: none;
   transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: #f3f3f3;
+  
 }
 
 .feature-card:hover {
@@ -39,4 +45,5 @@
 .feature-card:hover .icon-wrapper {
   background-color: white; 
   border-color: white; 
+  
 }
