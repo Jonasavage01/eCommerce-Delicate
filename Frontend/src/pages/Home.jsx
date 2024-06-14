@@ -5,6 +5,7 @@ import FeatureCard from '../components/FeatureCard';
 import ProductCard from '../components/Products';
 import MiniAbout from '../components/MiniAbout';
 import TestimonialItem from '../components/TestimonialItem';
+import NewsSection from '../components/NewsSection';
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <ProductCard />
             <MiniAbout/>
             <TestimonialItem/>
+            <NewsSection/>
 
         </>
     );

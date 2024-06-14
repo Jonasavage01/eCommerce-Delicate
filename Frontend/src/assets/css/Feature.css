@@ -1,12 +1,12 @@
 /* FeatureCard.css */
 .container-fluid{
-  background-color: #f3f3f3;
+  background-color: #ffffff;
 }
 
 .feature-card {
   border: none;
   transition: background-color 0.3s ease, color 0.3s ease;
-  background-color: #f3f3f3;
+  background-color: #ffffff;
   
 }
 
