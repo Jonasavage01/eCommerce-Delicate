@@ -181,11 +181,11 @@ a {
 .navbar {
     padding: 25px 0;
     background-color: transparent !important;
-    transition: background-color 0.5s ease-in-out; /* Transición suave para el cambio de fondo */
+    transition: background-color 0.5s ease-in-out; 
 }
 
 .navbar.scrolled {
-    background-color: #000 !important; /* Color de fondo oscuro */
+    background-color: #000 !important; 
 }
 
 

@@ -1,7 +1,7 @@
 /* FeatureCard.css */
 .feature-card {
   border: none;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .feature-card:hover {
@@ -10,15 +10,33 @@
 }
 
 .feature-card:hover .card-title,
-.feature-card:hover .card-text {
-  color: white;
+.feature-card:hover .card-text,
+.feature-card:hover  {
+  color: white !important; /* Asegura que el color de los iconos cambie */
 }
 
-.border-right {
-  border-right: 1px solid #ddd;
-}
+
 
 .feature-row .col-md-6:last-child,
 .feature-row .col-lg-3:last-child {
   border-right: none;
+}
+
+/* Circle with border around the icon */
+.feature-card .icon-wrapper {
+  display: inline-block;
+  width: 70px; 
+  height: 70px;
+  border: 2px solid #dcdcdc; 
+  border-radius: 50%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px; 
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.feature-card:hover .icon-wrapper {
+  background-color: white; 
+  border-color: white; 
 }
