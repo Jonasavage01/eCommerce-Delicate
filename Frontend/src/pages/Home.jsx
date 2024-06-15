@@ -6,6 +6,8 @@ import ProductCard from '../components/Products';
 import MiniAbout from '../components/MiniAbout';
 import TestimonialItem from '../components/TestimonialItem';
 import NewsSection from '../components/NewsSection';
+import InstagramSection from '../components/Instagram';
+import Footer from '../components/Footer';
 
 const Home = () => {
     return (
@@ -16,6 +18,8 @@ const Home = () => {
             <MiniAbout/>
             <TestimonialItem/>
             <NewsSection/>
+            <InstagramSection/>
+            <Footer/>
 
         </>
     );

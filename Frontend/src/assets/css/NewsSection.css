@@ -1,15 +1,9 @@
-.news-card {
-  transition: box-shadow 0.3s ease;
-  border: 1px solid #ddd;
-  margin-bottom: 2rem;
-}
-
-.container {
-  height: 100%;
-}
-
-.news-card:hover {
-  box-shadow: none;
+.container2 {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 15px;
+  margin-top: 10% !important;
+  
 }
 
 .text-orange {
@@ -21,20 +15,26 @@
   color: white;
 }
 
-.card-meta {
-  display: flex;
-  justify-content: space-between;
-  font-size: 0.9rem;
-  color: gray;
+.news-card {
+  border: none;
+  margin-bottom: 2rem;
+  transition: box-shadow 0.3s ease;
+  box-shadow: none; /* No shadow by default */
+  height: 100%; /* Ensure cards take up full height */
 }
 
-.read-more {
-  color: black;
-  font-weight: bold;
+.news-card:hover {
+  box-shadow: 20px 40px 60px rgba(0, 0, 0, 0.10); /* Increased shadow */
 }
 
-.read-more i {
-  margin-left: 5px;
+.card-img-top {
+  height: 250px; /* Adjusted height of the image */
+  object-fit: cover;
+  transition: filter 0.3s ease; /* Add transition for filter */
+}
+
+.news-card:hover .card-img-top {
+  filter: brightness(1.2); /* Brighten the image */
 }
 
 .card-body {
@@ -42,9 +42,49 @@
 }
 
 .card-title {
-  margin-bottom: 1rem;
+  font-size: 1.5rem; /* Increased font size */
+  margin-bottom: 0.75rem;
+}
+
+.card-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  color: #6c757d;
+  margin-bottom: 0.75rem;
 }
 
 .card-text {
-  margin-bottom: 1.5rem;
+  font-size: 1rem; /* Increased font size */
+  margin-bottom: 1.25rem;
+  margin-top: 1rem;
+}
+
+.read-more {
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+
+.read-more i {
+  margin-left: 5px;
+}
+
+/* Styling for the main title */
+.display-4 {
+  font-weight: 700; /* Increase the font weight */
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.display-4::after {
+  content: "";
+  width: 50px;
+  height: 4px;
+  background-color: #f7941d; /* Orange color */
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
 }
