@@ -94,8 +94,8 @@ const MiniAbout = () => {
           </ImageContainer>
         </ColumnLeft>
         <ColumnRight>
-          <SinceYear>Since Year 1999</SinceYear>
-          <AboutTitle>We are <span>Fruitkha</span></AboutTitle>
+          <SinceYear>Since Year 2022</SinceYear>
+          <AboutTitle>We are <span>Delicate</span></AboutTitle>
           <AboutText>
             Etiam vulputate ut augue vel sodales. In sollicitudin neque et massa porttitor vestibulum ac vel nisi. Vestibulum placerat eget dolor sit amet posuere. In ut dolor aliquet, aliquet sapien sed, interdum velit. Nam eu molestie lorem.
           </AboutText>

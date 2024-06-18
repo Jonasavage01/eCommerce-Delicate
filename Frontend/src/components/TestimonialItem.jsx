@@ -44,7 +44,7 @@ export default function Testimonials() {
                           xl="8"
                           className="text-center text-lg-start mx-auto mx-lg-0"
                         >
-                          <h4 className="mb-4">Maria Smantha - Web Developer</h4>
+                          <h4 className="mb-4">Maria Smantha - Bonao</h4>
                           <p className="mb-0 pb-3 testimonial-text">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
                             aliquam amet animi blanditiis consequatur debitis dicta
@@ -76,7 +76,7 @@ export default function Testimonials() {
                           xl="8"
                           className="text-center text-lg-start mx-auto mx-lg-0"
                         >
-                          <h4 className="mb-4">Lisa Cudrow - Graphic Designer</h4>
+                          <h4 className="mb-4">Lisa Cudrow - Puerto Plata</h4>
                           <p className="mb-0 pb-3 testimonial-text">
                             Sed ut perspiciatis unde omnis iste natus error sit
                             voluptatem accusantium doloremque laudantium, totam rem
@@ -108,7 +108,7 @@ export default function Testimonials() {
                           xl="8"
                           className="text-center text-lg-start mx-auto mx-lg-0"
                         >
-                          <h4 className="mb-4">John Smith - Marketing Specialist</h4>
+                          <h4 className="mb-4">John Smith - Barahona</h4>
                           <p className="mb-0 pb-3 testimonial-text">
                             At vero eos et accusamus et iusto odio dignissimos qui
                             blanditiis praesentium voluptatum deleniti atque corrupti

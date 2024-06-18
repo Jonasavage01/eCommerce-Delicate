@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import logo from '../assets/images/logo.png'; 
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faShoppingCart, faSearch, faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import { faShoppingCart, faBars, faTimes, faHeart } from '@fortawesome/free-solid-svg-icons';
 import '../assets/css/Navbar.css';
 
 const Navbar = () => {
@@ -39,15 +38,17 @@ const Navbar = () => {
             <nav className={`navbar navbar-expand-lg navbar-dark fixed-top ${navbarCollapsed ? '' : 'menu-open'} ${scrolled ? 'scrolled' : ''}`}>
                 <div className="container d-flex justify-content-between">
                     <a className="navbar-brand" href="index.html">
-                        <img src={logo} alt="logo" className="logo"/>
+                        <h2 className='logo'>Delicaté</h2>
                     </a>
-                    <div className="d-flex">
-                        <div className="navbar-icons d-lg-none order-1">
-                            <a className="nav-link" href="cart.html">
-                                <FontAwesomeIcon icon={faShoppingCart} />
+                    <div className="d-flex align-items-center">
+                        <div className="navbar-icons d-lg-none order-1 d-flex align-items-center">
+                            <a className="nav-link position-relative" href="#">
+                                <FontAwesomeIcon icon={faHeart} />
+                                <span className="icon-badge">0</span>
                             </a>
-                            <a className="nav-link" href="#" onClick={toggleSearchModal}>
-                                <FontAwesomeIcon icon={faSearch} />
+                            <a className="nav-link position-relative" href="cart.html">
+                                <FontAwesomeIcon icon={faShoppingCart} />
+                                <span className="icon-badge">0</span>
                             </a>
                         </div>
                         <button className="navbar-toggler order-2" type="button" onClick={toggleNavbar}>
@@ -60,28 +61,27 @@ const Navbar = () => {
                                 <a className="nav-link" href="#">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="about.html">About</a>
+                                <a className="nav-link" href="about.html">Shop</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Pages</a>
+                                <a className="nav-link" href="#">About</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="news.html">News</a>
+                                <a className="nav-link" href="news.html">Contact</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="contact.html">Contact</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="shop.html">Shop</a>
+                                <a className="nav-link" href="contact.html">Blog</a>
                             </li>
                         </ul>
                     </div>
-                    <div className="navbar-icons d-none d-lg-flex">
-                        <a className="nav-link" href="cart.html">
-                            <FontAwesomeIcon icon={faShoppingCart} />
+                    <div className="navbar-icons d-none d-lg-flex align-items-center">
+                        <a className="nav-link position-relative" href="#">
+                            <FontAwesomeIcon icon={faHeart} />
+                            <span className="icon-badge">0</span>
                         </a>
-                        <a className="nav-link" href="#" onClick={toggleSearchModal}>
-                            <FontAwesomeIcon icon={faSearch} />
+                        <a className="nav-link position-relative" href="cart.html">
+                            <FontAwesomeIcon icon={faShoppingCart} />
+                            <span className="icon-badge">0</span>
                         </a>
                     </div>
                 </div>
@@ -118,28 +118,9 @@ const Navbar = () => {
             )}
             {/* End Hamburger Menu */}
 
-            {/* Search Modal */}
-            {searchModalVisible && (
-                <div className="search-area">
-                    <div className="container">
-                        <div className="row justify-content-center">
-                            <div className="col-md-8 text-center">
-                                <span className="close-btn" onClick={toggleSearchModal}>
-                                    <FontAwesomeIcon icon={faTimes} />
-                                </span>
-                                <div className="search-bar">
-                                    <h3>Search For:</h3>
-                                    <input type="text" placeholder="Keywords" className="form-control" />
-                                    <button type="submit" className="btn btn-primary mt-3">
-                                        Search <FontAwesomeIcon icon={faSearch} />
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            )}
-            {/* End Search Modal */}
+           
+            
+          
         </>
     );
 };
