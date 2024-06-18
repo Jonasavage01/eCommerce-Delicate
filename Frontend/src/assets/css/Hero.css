@@ -1,14 +1,12 @@
 .hero-section {
     width: 100%;
     height: 100vh;
-    overflow: hidden; /* Asegura que no haya desbordamiento */
-    position: relative;
-}
-
-.hero-image {
-    object-fit: cover; /* Hace que la imagen cubra el contenedor manteniendo su proporción */
-    object-position: center; /* Centra la imagen */
-    z-index: -1; /* Coloca la imagen detrás del contenido */
+    
+    background-image: url('../images/hero/Hero.jpg'); /* Ruta a tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Aplica el efecto de fondo fijo */
+   
 }
 
 .overlay {

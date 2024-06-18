@@ -30,14 +30,14 @@ const FeatureCard = () => {
     <div className="container-fluid py-4">
       <div className="row feature-row">
         {features.map((feature, index) => (
-          <div key={index} className="col-12 col-md-6 col-lg-3 mb-3">
+          <div key={index} className="col-13 col-md-6 col-lg-3 mb-3">
             <div className={`card feature-card text-center h-100 ${index < features.length - 1 ? 'border-right' : ''}`}>
-              <div className="card-body">
+              <div className="card-body3">
                 <div className="icon-wrapper">
                   <i className={`fas ${feature.icon} fa-2x text-success`}></i>
                 </div>
-                <h5 className="card-title">{feature.title}</h5>
-                <p className="card-text">{feature.description}</p>
+                <h5 className="card-title3">{feature.title}</h5>
+                <p className="card-text3">{feature.description}</p>
               </div>
             </div>
           </div>
