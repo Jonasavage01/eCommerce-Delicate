@@ -1,134 +1,168 @@
-import React from "react";
-import {
-  MDBCard,
-  MDBCardBody,
-  MDBCarousel,
-  MDBCarouselItem,
-  MDBCol,
-  MDBContainer,
-  MDBIcon,
-  MDBRow,
-} from "mdb-react-ui-kit";
-import '../assets/css/Testimonials.css';
+import React from 'react';
+import styled from 'styled-components';
+import aboutImage from '../assets/images/mini-about/mini-about.jpg';
 
-export default function Testimonials() {
+// Styled Components
+const Container = styled.div`
+  padding: 5rem 1rem;
+  text-align: left;
+
+  @media (max-width: 768px) {
+    padding: 3rem 1rem;
+  }
+`;
+
+const Row = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: left;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+`;
+
+const ColumnLeft = styled.div`
+  flex: 1;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+
+    @media (max-width: 768px) {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 480px) {
+      width: 100%;
+    }
+  }
+`;
+
+const ColumnRight = styled.div`
+  flex: 1;
+  padding: 1rem;
+  text-align: left;
+
+  @media (max-width: 768px) {
+    text-align: left;
+    padding: 0;
+  }
+`;
+
+const SinceYear = styled.span`
+  font-size: 1.4rem;
+  color: #888;
+`;
+
+const AboutTitle = styled.h2`
+  font-size: 3.2rem;
+  margin: 10px 0;
+
+  span {
+    color: #f28123;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 2.5rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 2rem;
+  }
+`;
+
+const AboutText = styled.p`
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  max-width: 90%;
+  text-align: left;
+
+  @media (max-width: 768px) {
+    max-width: 100%;
+    margin: 0 auto 1.5rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1.1rem;
+  }
+`;
+
+const AboutButton = styled.button`
+  background-color: #f28123;
+  border: none;
+  color: white;
+  padding: 0.8rem 2.5rem;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #ffffff;
+    color: #f28123;
+    transform: scale(1.05);
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1rem;
+    padding: 0.7rem 2rem;
+  }
+`;
+
+const ImageContainer = styled.div`
+  position: relative;
+`;
+
+const PlayButton = styled.div`
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(242, 129, 35, 0.8);
+  border-radius: 50%;
+  padding: 20px;
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(242, 129, 35, 1);
+  }
+`;
+
+const MiniAbout = () => {
   return (
-    <MDBContainer fluid className="py-5 gradient-custom">
-      <MDBRow className="d-flex justify-content-center">
-        <MDBCol md="12">
-          <div className="text-center mb-4 pb-2">
-            <MDBIcon fas icon="quote-left" size="3x" className="text-white" />
-          </div>
-          <div className="text-center mb-4 pb-2 title-background">
-            <h1 className="text-white">What Our Customers Say</h1>
-          </div>
-          <MDBCard className="testimonial-card">
-            <MDBCardBody className="px-5 py-5">
-              <MDBCarousel showControls dark>
-                <MDBCarouselItem className="active">
-                  <MDBRow className="d-flex justify-content-center">
-                    <MDBCol lg="10" xl="8">
-                      <MDBRow>
-                        <MDBCol lg="4" className="d-flex justify-content-center">
-                          <img
-                            src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
-                            className="rounded-circle shadow-1 mb-4 mb-lg-0"
-                            alt="woman avatar"
-                            width="200"
-                            height="200"
-                          />
-                        </MDBCol>
-                        <MDBCol
-                          md="9"
-                          lg="8"
-                          xl="8"
-                          className="text-center text-lg-start mx-auto mx-lg-0"
-                        >
-                          <h4 className="mb-4">Maria Smantha - Bonao</h4>
-                          <p className="mb-0 pb-3 testimonial-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                            aliquam amet animi blanditiis consequatur debitis dicta
-                            distinctio, enim error eum iste libero modi nam natus
-                            perferendis possimus quasi sint sit tempora voluptatem.
-                            Est, exercitationem id ipsa ipsum laboriosam perferendis.
-                          </p>
-                        </MDBCol>
-                      </MDBRow>
-                    </MDBCol>
-                  </MDBRow>
-                </MDBCarouselItem>
-                <MDBCarouselItem>
-                  <MDBRow className="d-flex justify-content-center">
-                    <MDBCol lg="10" xl="8">
-                      <MDBRow>
-                        <MDBCol lg="4" className="d-flex justify-content-center">
-                          <img
-                            src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
-                            className="rounded-circle shadow-1 mb-4 mb-lg-0"
-                            alt="woman avatar"
-                            width="200"
-                            height="200"
-                          />
-                        </MDBCol>
-                        <MDBCol
-                          md="9"
-                          lg="8"
-                          xl="8"
-                          className="text-center text-lg-start mx-auto mx-lg-0"
-                        >
-                          <h4 className="mb-4">Lisa Cudrow - Puerto Plata</h4>
-                          <p className="mb-0 pb-3 testimonial-text">
-                            Sed ut perspiciatis unde omnis iste natus error sit
-                            voluptatem accusantium doloremque laudantium, totam rem
-                            aperiam, eaque ipsa quae ab illo inventore veritatis et
-                            quasi architecto beatae vitae dicta sunt explicabo. Nemo
-                            enim ipsam voluptatem quia voluptas sit aspernatur.
-                          </p>
-                        </MDBCol>
-                      </MDBRow>
-                    </MDBCol>
-                  </MDBRow>
-                </MDBCarouselItem>
-                <MDBCarouselItem>
-                  <MDBRow className="d-flex justify-content-center">
-                    <MDBCol lg="10" xl="8">
-                      <MDBRow>
-                        <MDBCol lg="4" className="d-flex justify-content-center">
-                          <img
-                            src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(3).webp"
-                            className="rounded-circle shadow-1 mb-4 mb-lg-0"
-                            alt="man avatar"
-                            width="200"
-                            height="200"
-                          />
-                        </MDBCol>
-                        <MDBCol
-                          md="9"
-                          lg="8"
-                          xl="8"
-                          className="text-center text-lg-start mx-auto mx-lg-0"
-                        >
-                          <h4 className="mb-4">John Smith - Barahona</h4>
-                          <p className="mb-0 pb-3 testimonial-text">
-                            At vero eos et accusamus et iusto odio dignissimos qui
-                            blanditiis praesentium voluptatum deleniti atque corrupti
-                            quos dolores et quas molestias excepturi sint occaecati
-                            cupiditate non provident, similique sunt in culpa qui
-                            officia mollitia animi id laborum et dolorum fuga.
-                          </p>
-                        </MDBCol>
-                      </MDBRow>
-                    </MDBCol>
-                  </MDBRow>
-                </MDBCarouselItem>
-              </MDBCarousel>
-            </MDBCardBody>
-          </MDBCard>
-          <div className="text-center mt-4 pt-2">
-            <MDBIcon fas icon="quote-right" size="3x" className="text-white" />
-          </div>
-        </MDBCol>
-      </MDBRow>
-    </MDBContainer>
+    <Container className="about-me">
+      <Row>
+        <ColumnLeft>
+          <ImageContainer>
+            <img src={aboutImage} alt="About Me" className="img-fluid rounded" />
+          </ImageContainer>
+        </ColumnLeft>
+        <ColumnRight>
+          <SinceYear>Since Year 2022</SinceYear>
+          <AboutTitle>We are <span>Delicate</span></AboutTitle>
+          <AboutText>
+            Etiam vulputate ut augue vel sodales. In sollicitudin neque et massa porttitor vestibulum ac vel nisi. Vestibulum placerat eget dolor sit amet posuere. In ut dolor aliquet, aliquet sapien sed, interdum velit. Nam eu molestie lorem.
+          </AboutText>
+          <AboutText>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente facilis illo repellat veritatis minus, et labore minima mollitia qui ducimus.
+          </AboutText>
+          <AboutButton>
+            know more
+          </AboutButton>
+        </ColumnRight>
+      </Row>
+    </Container>
   );
-}
+};
+
+export default MiniAbout;

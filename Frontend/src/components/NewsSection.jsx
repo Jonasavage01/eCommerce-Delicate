@@ -15,8 +15,8 @@ const NewsSection = () => {
         <p className="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquid, fuga quas itaque eveniet beatae optio.</p>
       </div>
       <div className="row">
-        <div className="col-md-4">
-          <div className="card news-card ">
+        <div className="col-md-4 col-12">
+          <div className="card news-card">
             <img src={img1} className="card-img-top2" alt="News 1" />
             <div className="card-body2">
               <h5 className="card-title2">You will vainly look for fruit on it in autumn.</h5>
@@ -29,8 +29,8 @@ const NewsSection = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-4">
-          <div className="card news-card ">
+        <div className="col-md-4 col-12">
+          <div className="card news-card">
             <img src={img2} className="card-img-top2" alt="News 2" />
             <div className="card-body2">
               <h5 className="card-title2">A man's worth has its season, like tomato.</h5>
@@ -43,8 +43,8 @@ const NewsSection = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-4">
-          <div className="card news-card ">
+        <div className="col-md-4 col-12">
+          <div className="card news-card">
             <img src={img3} className="card-img-top2" alt="News 3" />
             <div className="card-body2">
               <h5 className="card-title2">Good thoughts bear good fresh juicy fruit.</h5>

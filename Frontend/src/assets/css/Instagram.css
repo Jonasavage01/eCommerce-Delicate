@@ -5,15 +5,11 @@
 
 .zoom-effect img {
     max-width: 100%;
-    -webkit-transition: 0.6s ease-out;
-    -moz-transition: 0.6s ease-out;
     transition: 0.6s ease-out;
 }
 
 .zoom-effect:hover img {
-    -webkit-transform: scale(1.1,1.1);
-    -moz-transform: scale(1.1,1.1);
-    transform: scale(1.1,1.1);
+    transform: scale(1.1, 1.1);
 }
 
 .zoom-effect:before {
@@ -24,11 +20,9 @@
     top: 0;
     left: 0;
     position: absolute;
-    background: rgba(0,0,0,0.3);
+    background: rgba(0, 0, 0, 0.3);
     z-index: 2;
     opacity: 0;
-    -moz-transition: 0.5s ease;
-    -webkit-transition: 0.5s ease;
     transition: 0.5s ease;
 }
 
@@ -37,7 +31,6 @@
     cursor: pointer;
 }
 
-/* Icono de Instagram */
 .zoom-effect .icon-instagram {
     position: absolute;
     top: 50%;
@@ -54,13 +47,61 @@
     opacity: 1;
 }
 
-/* Ajustes del título de la sección */
 .section-title {
     font-size: 3.5rem;
     margin-top: 10%;
+    text-align: center;
 }
 
 p a {
     color: #f7941d;
     text-decoration: none;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 750px) {
+    .section-title {
+        font-size: 3rem;
+    }
+    p {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .section-title {
+        font-size: 2.5rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .section-title {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .section-title {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 0.8rem;
+    }
+}
+
+/* Ajuste de imágenes para pantallas pequeñas */
+@media (max-width: 770px) {
+    .col-4 {
+        width: 33.333%;
+    }
 }

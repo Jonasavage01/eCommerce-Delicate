@@ -1,0 +1,22 @@
+/* Estilos globales del scroll */
+::-webkit-scrollbar {
+    width: 13px;
+  }
+  
+  /* Fondo del scroll */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  
+  /* Color del scroll */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 12px;
+  }
+  
+  /* Color del scroll cuando está siendo interactuado */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #e8902c;
+  }
+  

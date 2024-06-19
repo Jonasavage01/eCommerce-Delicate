@@ -1,6 +1,12 @@
 import React from 'react';
 import '../assets/css/Footer.css';
 import logo from '../assets/images/logo.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { library } from '@fortawesome/fontawesome-svg-core';
+
+// Agregar los iconos a la biblioteca
+library.add(faInstagram, faWhatsapp);
 
 const Footer = () => {
   return (
@@ -24,6 +30,7 @@ const Footer = () => {
               <button type="submit">Subscribe</button>
             </form>
           </div>
+         
         </div>
         <div className="footer-bottom">
           <p>&copy; 2024 Your Brand. All Rights Reserved.</p>
