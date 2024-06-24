@@ -1,4 +1,4 @@
-.hero-section {
+.hero-section2 {
     width: 100%;
     height: 60vh;
     background-image: url('../images/hero/2.jpg'); /* Ruta a tu imagen */
@@ -8,22 +8,22 @@
    margin-bottom: 5%;
 }
 
-.overlay {
+.overlay2 {
     background-color: rgba(0, 0, 0, 0.648); /* Añade un overlay semitransparente si es necesario */
 }
 
-.content {
+.content2 {
     z-index: 1; /* Asegura que el contenido esté por encima de la imagen */
 }
 
-.small-title {
+.small-title2 {
     color: #ff9924;
     font-size: 1.7rem !important;     margin-top: 50%;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); 
     
 }
 
-.main-title {
+.main-title2 {
     color: #fff;
     font-weight: bold;
     font-size: 3.7rem;
@@ -35,15 +35,15 @@
 @media (max-width: 1081px) {
 
 
-    .small-title {
+    .small-title2 {
         font-size: 2.5rem;
     }
 
-    .main-title {
+    .main-title2 {
         font-size: 5rem;
     }
 
-    .custom-btn {
+    .custom-btn2 {
         font-size: 1.3rem;
         padding: 12px 25px;
     }
@@ -55,15 +55,15 @@
 @media (max-width: 940px) {
    
 
-    .small-title {
+    .small-title2 {
         font-size: 2rem;
     }
 
-    .main-title {
+    .main-title2 {
         font-size: 4rem;
     }
 
-    .custom-btn {
+    .custom-btn2 {
         font-size: 1rem;
         padding: 10px 20px;
     }
@@ -73,15 +73,15 @@
 @media (max-width: 768px) {
    
 
-    .small-title {
+    .small-title2 {
         font-size: 2rem !important;
     }
 
-    .main-title {
+    .main-title2 {
         font-size: 3rem;
     }
 
-    .custom-btn {
+    .custom-btn2 {
         font-size: 1rem;
         padding: 10px 20px;
     }
@@ -91,19 +91,19 @@
 
 /* Responsive Design */
 @media (max-width: 606px) {
-    .hero-section {
+    .hero-section2 {
         height: 90vh; /* Adjust height for smaller screens */
     }
 
-    .small-title {
+    .small-title2 {
         font-size: 1.5rem;
     }
 
-    .main-title {
+    .main-title2 {
         font-size: 2.5rem;
     }
 
-    .custom-btn {
+    .custom-btn2 {
         font-size: 1rem;
         padding: 10px 20px;
     }
@@ -111,20 +111,20 @@
 
 
 @media (max-width: 500px) {
-    .hero-section {
+    .hero-section2 {
         height: 80vh; /* Adjust height for extra small screens */
         
     }
 
-    .small-title {
+    .small-title2 {
         font-size: 1.5rem !important;
     }
 
-    .main-title {
+    .main-title2 {
         font-size: 2rem;
     }
 
-    .custom-btn {
+    .custom-btn2 {
         font-size: 0.9rem;
         padding: 8px 16px;
     }
@@ -133,20 +133,20 @@
 
 
 @media (max-width: 401px) {
-    .hero-section {
+    .hero-section2 {
         height: 90vh; /* Adjust height for extra small screens */
         
     }
 
-    .small-title {
+    .small-title2 {
         font-size: 1.5rem !important;
     }
 
-    .main-title {
+    .main-title2 {
         font-size: 1.8rem;
     }
 
-    .custom-btn {
+    .custom-btn2 {
         font-size: 0.7rem;
         padding: 7px 14px;
     }
@@ -155,20 +155,20 @@
 
 
 @media (max-width: 325px) {
-    .hero-section {
+    .hero-section2 {
         height: 90vh; /* Adjust height for extra small screens */
         
     }
 
-    .small-title {
+    .small-title2 {
         font-size: 1.2rem !important;
     }
 
-    .main-title {
+    .main-title2 {
         font-size: 1.5rem;
     }
 
-    .custom-btn {
+    .custom-btn2 {
         font-size: 0.7rem;
         padding: 6px 13px;
     }
