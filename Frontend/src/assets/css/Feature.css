@@ -11,7 +11,7 @@
 }
 
 .feature-card:hover {
-  background-color: #28a745;
+  background-color: #f1964c;
   color: white;
 }
 
@@ -40,6 +40,7 @@
   justify-content: center;
   margin: 0 auto 20px; 
   transition: background-color 0.3s ease, border-color 0.3s ease;
+  
 }
 
 .feature-card:hover .icon-wrapper {
@@ -48,3 +49,7 @@
   
 }
 
+.card-title, .card-text{
+
+  font-family: Poppings-regular;
+}

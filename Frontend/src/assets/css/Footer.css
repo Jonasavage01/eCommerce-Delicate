@@ -111,6 +111,12 @@
 
 .footer-bottom p {
   margin: 0;
+  font-family: Poppings-regular;
+}
+
+.Logo {
+font-family: Pro-text;
+  color: #f1964c;
 }
 
 @media (max-width: 768px) {

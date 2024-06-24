@@ -2,13 +2,13 @@ import React from 'react';
 import '../assets/css/ProductCard.css';
 
 // Importación de imágenes
-import strawberryImg from '../assets/images/products/starwberry.jpg';
-import lemonImg from '../assets/images/products/lemon.jpg';
-import appleImg from '../assets/images/products/apple.jpg';
-import berryImg from '../assets/images/products/berry.jpg';
-import orangeImg from '../assets/images/products/grapes.jpg';
-import grapesImg from '../assets/images/products/starwberry.jpg';
-import kiwiImg from '../assets/images/products/kiwi.jpg';
+import strawberryImg from '../assets/images/products/img-2.png';
+import lemonImg from '../assets/images/products/img-3.png';
+import appleImg from '../assets/images/products/img-4.png';
+import berryImg from '../assets/images/products/img-5.png';
+import orangeImg from '../assets/images/products/img-6.png';
+import grapesImg from '../assets/images/products/img-2.png';
+import kiwiImg from '../assets/images/products/img-1.png';
 // Importación de FontAwesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart, faEye, faArrowRight } from '@fortawesome/free-solid-svg-icons';

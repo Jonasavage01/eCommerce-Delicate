@@ -14,12 +14,12 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-logo">
-            <img src={logo} alt="Logo" />
+          <h2 className='Logo'>Delicaté</h2>
           </div>
           <div className="footer-links">
             <a href="#">Home</a>
             <a href="#">About Us</a>
-            <a href="#">Services</a>
+            <a href="#">Shop</a>
             <a href="#">Contact</a>
             <a href="#">Privacy Policy</a>
           </div>
@@ -33,7 +33,7 @@ const Footer = () => {
          
         </div>
         <div className="footer-bottom">
-          <p>&copy; 2024 Your Brand. All Rights Reserved.</p>
+          <p>&copy; 2024 Delicaté. All Rights Reserved.</p>
         </div>
       </div>
     </footer>

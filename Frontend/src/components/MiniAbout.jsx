@@ -6,6 +6,7 @@ import aboutImage from '../assets/images/mini-about/mini-about.jpg';
 const Container = styled.div`
   padding: 5rem 1rem;
   text-align: left;
+  font-family: Pro-text;
 
   @media (max-width: 768px) {
     padding: 3rem 1rem;
@@ -17,6 +18,7 @@ const Row = styled.div`
   flex-wrap: wrap;
   align-items: center;
   text-align: left;
+  font-family:Poppings-regular:
 
   @media (max-width: 768px) {
     flex-direction: column;

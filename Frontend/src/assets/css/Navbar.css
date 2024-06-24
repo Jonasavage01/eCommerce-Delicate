@@ -9,7 +9,14 @@ a {
     transition: all 0.2s ease-in-out;
 }
 
+
+
 /* Navbar Styles */
+
+.nav-link.active {
+    color: #f1964c;
+}
+
 .navbar {
     padding: 10px 0;
     background-color: transparent !important;
@@ -23,6 +30,7 @@ a {
 .navbar-brand .logo {
     font-size: 3.5rem;
     color: #f1964c;
+    font-family: Poppings-regular;
 }
 
 .navbar-toggler {
@@ -45,6 +53,7 @@ a {
     margin-right: 40px;
     margin-left: 20px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    font-family: Poppings-semibold;
 }
 
 .nav-link:hover {
@@ -264,8 +273,9 @@ font-size: 2.5rem;
 
         
 .icon-badge {
-   
     font-size: 0.7rem;
+    top: -8px;
+    right: -7px;
     
 }
 }
@@ -304,7 +314,9 @@ font-size: 1rem;
 
 
 .icon-badge {
-   
+    
+    top: -7px;
+    right: -6px;
     font-size: 0.5rem;
    
 }

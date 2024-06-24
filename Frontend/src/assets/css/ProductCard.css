@@ -10,6 +10,7 @@
   font-size: 4rem;
   margin-bottom: 5%;
   margin-top: 10%;
+  font-size: Pro-text;
 }
 
 .section-title span {
@@ -20,6 +21,7 @@
   text-align: center;
   margin-bottom: 2rem;
   color: #666;
+  font-family: Poppings-regular;
 }
 
 .product-card {
