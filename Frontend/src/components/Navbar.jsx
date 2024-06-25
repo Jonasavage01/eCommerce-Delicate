@@ -1,19 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
-import { NavLink } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart, faBars, faTimes, faHeart } from '@fortawesome/free-solid-svg-icons';
 import '../assets/css/Navbar.css';
-import { Link } from 'react-router-dom';
 
 const Navbar = () => {
-    const [searchModalVisible, setSearchModalVisible] = useState(false);
     const [navbarCollapsed, setNavbarCollapsed] = useState(true);
     const [scrolled, setScrolled] = useState(false);
-
-    const toggleSearchModal = () => {
-        setSearchModalVisible(!searchModalVisible);
-    };
+    const location = useLocation();
 
     const toggleNavbar = () => {
         setNavbarCollapsed(!navbarCollapsed);
@@ -34,10 +30,13 @@ const Navbar = () => {
         };
     }, []);
 
+    // Determine if we are on the ProductDetail page
+    const isProductDetailPage = location.pathname.includes('/product/');
+
     return (
         <>
             {/* Header */}
-            <nav className={`navbar navbar-expand-lg navbar-dark fixed-top ${navbarCollapsed ? '' : 'menu-open'} ${scrolled ? 'scrolled' : ''}`}>
+            <nav className={`navbar navbar-expand-lg navbar-dark fixed-top ${navbarCollapsed ? '' : 'menu-open'} ${scrolled && !isProductDetailPage ? 'scrolled' : ''} ${isProductDetailPage ? 'black-bg' : ''}`}>
                 <div className="container d-flex justify-content-between">
                     <Link className="navbar-brand" to="/">
                         <h2 className='logo'>Delicaté</h2>

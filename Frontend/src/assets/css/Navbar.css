@@ -9,7 +9,9 @@ a {
     transition: all 0.2s ease-in-out;
 }
 
-
+.navbar.black-bg {
+    background-color: black !important;
+}
 
 /* Navbar Styles */
 
