@@ -1,9 +1,7 @@
 .product-detail {
     margin-top: 7rem;
     padding: 2rem;
-    background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .product-image {
@@ -70,7 +68,7 @@
 
 .add-to-cart-button {
     flex-grow: 1;
-    font-size: 1.3rem;  /* Reducido un poco */
+    font-size: 1.3rem;
     border-radius: 20px;
 }
 
@@ -119,4 +117,144 @@
     background-color: #fff;
     border-bottom: 2px solid #fff;
     font-weight: bold;
+}
+
+@media (max-width: 1200px) {
+    .product-title {
+        font-size: 2.25rem;
+    }
+
+    .stock-status, .original-price, .discount-percentage {
+        font-size: 1.4rem;
+    }
+
+    .discounted-price {
+        font-size: 1.9rem;
+    }
+
+    .product-description, .quantity-selector, .share-item {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .product-title {
+        font-size: 2rem;
+    }
+
+    .stock-status, .original-price, .discount-percentage {
+        font-size: 1.3rem;
+    }
+
+    .discounted-price {
+        font-size: 1.8rem;
+    }
+
+    .product-description, .quantity-selector, .share-item {
+        font-size: 1.3rem;
+    }
+
+    .product-tabs .react-tabs__tab {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .product-title {
+        font-size: 1.75rem;
+    }
+
+    .stock-status, .original-price, .discount-percentage {
+        font-size: 1.2rem;
+    }
+
+    .discounted-price {
+        font-size: 1.7rem;
+    }
+
+    .product-description, .quantity-selector, .share-item {
+        font-size: 1.2rem;
+    }
+
+    .product-tabs .react-tabs__tab {
+        font-size: 1.3rem;
+        padding: 12px 24px;
+    }
+}
+
+@media (max-width: 600px) {
+    .product-title {
+        font-size: 1.5rem;
+    }
+
+    .stock-status, .original-price, .discount-percentage {
+        font-size: 1.1rem;
+    }
+
+    .discounted-price {
+        font-size: 1.5rem;
+    }
+
+    .product-description, .quantity-selector, .share-item {
+        font-size: 1.1rem;
+    }
+
+    .product-tabs .react-tabs__tab {
+        font-size: 1.2rem;
+        padding: 10px 20px;
+    }
+
+    .action-buttons {
+        flex-direction: column;
+    }
+
+    .add-to-cart-button, .wishlist-button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .product-title {
+        font-size: 1.25rem;
+    }
+
+    .stock-status, .original-price, .discount-percentage {
+        font-size: 1rem;
+    }
+
+    .discounted-price {
+        font-size: 1.25rem;
+    }
+
+    .product-description, .quantity-selector, .share-item {
+        font-size: 1rem;
+    }
+
+    .product-tabs .react-tabs__tab {
+        font-size: 1.1rem;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 300px) {
+    .product-title {
+        font-size: 1rem;
+    }
+
+    .stock-status, .original-price, .discount-percentage {
+        font-size: 0.9rem;
+    }
+
+    .discounted-price {
+        font-size: 1rem;
+    }
+
+    .product-description, .quantity-selector, .share-item {
+        font-size: 0.9rem;
+    }
+
+    .product-tabs .react-tabs__tab {
+        font-size: 1rem;
+        padding: 6px 12px;
+    }
 }

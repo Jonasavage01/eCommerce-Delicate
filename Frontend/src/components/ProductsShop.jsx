@@ -51,11 +51,6 @@ const ProductsShop = () => {
           </div>
         ))}
       </div>
-      <div className="text-center mt-5">
-        <button className="btn btn-primary view-all-btn">
-          View All <FontAwesomeIcon icon={faArrowRight} className="arrow-icon" />
-        </button>
-      </div>
     </div>
   );
 };

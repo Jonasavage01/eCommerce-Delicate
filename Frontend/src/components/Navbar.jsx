@@ -30,24 +30,24 @@ const Navbar = () => {
         };
     }, []);
 
-    // Determine if we are on the ProductDetail page
-    const isProductDetailPage = location.pathname.includes('/product/');
+    const pagesWithBlackBg = ['/product/', '/wishlist', '/ShoppingCart'];
+    const isPageWithBlackBg = pagesWithBlackBg.some((page) => location.pathname.includes(page));
 
     return (
         <>
             {/* Header */}
-            <nav className={`navbar navbar-expand-lg navbar-dark fixed-top ${navbarCollapsed ? '' : 'menu-open'} ${scrolled && !isProductDetailPage ? 'scrolled' : ''} ${isProductDetailPage ? 'black-bg' : ''}`}>
+            <nav className={`navbar navbar-expand-lg navbar-dark fixed-top ${navbarCollapsed ? '' : 'menu-open'} ${scrolled && !isPageWithBlackBg ? 'scrolled' : ''} ${isPageWithBlackBg ? 'black-bg' : ''}`}>
                 <div className="container d-flex justify-content-between">
                     <Link className="navbar-brand" to="/">
                         <h2 className='logo'>Delicaté</h2>
                     </Link>
                     <div className="d-flex align-items-center">
                         <div className="navbar-icons d-lg-none order-1 d-flex align-items-center">
-                            <Link className="nav-link position-relative" to="#">
+                            <Link className="nav-link position-relative" to="/wishlist">
                                 <FontAwesomeIcon icon={faHeart} />
                                 <span className="icon-badge">0</span>
                             </Link>
-                            <Link className="nav-link position-relative" to="cart">
+                            <Link className="nav-link position-relative" to="/ShoppingCart">
                                 <FontAwesomeIcon icon={faShoppingCart} />
                                 <span className="icon-badge">0</span>
                             </Link>
@@ -76,11 +76,11 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="navbar-icons d-none d-lg-flex align-items-center">
-                        <Link className="nav-link position-relative" to="#">
+                        <Link className="nav-link position-relative" to="/wishlist">
                             <FontAwesomeIcon icon={faHeart} />
                             <span className="icon-badge">0</span>
                         </Link>
-                        <Link className="nav-link position-relative" to="cart">
+                        <Link className="nav-link position-relative" to="/ShoppingCart">
                             <FontAwesomeIcon icon={faShoppingCart} />
                             <span className="icon-badge">0</span>
                         </Link>

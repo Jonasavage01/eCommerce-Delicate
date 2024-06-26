@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import HeroShop from '../components/HeroShop';
 import ProductsShop from '../components/ProductsShop';
 import Pagination from '../components/Paginations';
+import Footer from '../components/Footer';
+
 
 const Shop = () => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -18,6 +20,7 @@ const Shop = () => {
       <HeroShop />
       <ProductsShop currentPage={currentPage} itemsPerPage={itemsPerPage} />
       <Pagination currentPage={currentPage} totalPages={totalPages} onPageChange={handlePageChange} />
+      <Footer />
     </>
   );
 };
