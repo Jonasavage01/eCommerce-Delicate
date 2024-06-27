@@ -1,26 +1,42 @@
-import React from 'react'; 
+import React, { Suspense, lazy } from 'react'; 
 import 'bootstrap/dist/css/bootstrap.min.css'; 
-import Hero from '../components/Hero';
-import FeatureCard from '../components/FeatureCard';
-import ProductCard from '../components/Products';
-import MiniAbout from '../components/MiniAbout';
-import TestimonialItem from '../components/TestimonialItem';
-import NewsSection from '../components/NewsSection';
-import InstagramSection from '../components/Instagram';
-import Footer from '../components/Footer';
+
+const Hero = lazy(() => import('../components/Hero'));
+const FeatureCard = lazy(() => import('../components/FeatureCard'));
+const ProductCard = lazy(() => import('../components/Products'));
+const MiniAbout = lazy(() => import('../components/MiniAbout'));
+const TestimonialItem = lazy(() => import('../components/TestimonialItem'));
+const NewsSection = lazy(() => import('../components/NewsSection'));
+const InstagramSection = lazy(() => import('../components/Instagram'));
+const Footer = lazy(() => import('../components/Footer'));
 
 const Home = () => {
     return (
         <>
-            <Hero />
-            <FeatureCard />
-            <ProductCard />
-            <MiniAbout/>
-            <TestimonialItem/>
-            <NewsSection/>
-            <InstagramSection/>
-            <Footer/>
-
+            <Suspense fallback={<div>Loading...</div>}>
+                <Hero />
+            </Suspense>
+            <Suspense fallback={<div>Loading...</div>}>
+                <FeatureCard />
+            </Suspense>
+            <Suspense fallback={<div>Loading...</div>}>
+                <ProductCard />
+            </Suspense>
+            <Suspense fallback={<div>Loading...</div>}>
+                <MiniAbout />
+            </Suspense>
+            <Suspense fallback={<div>Loading...</div>}>
+                <TestimonialItem />
+            </Suspense>
+            <Suspense fallback={<div>Loading...</div>}>
+                <NewsSection />
+            </Suspense>
+            <Suspense fallback={<div>Loading...</div>}>
+                <InstagramSection />
+            </Suspense>
+            <Suspense fallback={<div>Loading...</div>}>
+                <Footer />
+            </Suspense>
         </>
     );
 };

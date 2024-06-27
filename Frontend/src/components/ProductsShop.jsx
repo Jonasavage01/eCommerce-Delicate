@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { memo } from 'react';
 import { Link } from 'react-router-dom';
+import LazyLoad from 'react-lazyload';
 import '../assets/css/ProductCard.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHeart, faEye, faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faHeart, faEye } from '@fortawesome/free-solid-svg-icons';
 
 import strawberryImg from '../assets/images/products/img-2.png';
 import lemonImg from '../assets/images/products/img-3.png';
@@ -23,7 +24,7 @@ const products = [
   { id: 8, title: 'Kiwi', price: '90$', imgSrc: kiwiImg },
 ];
 
-const ProductsShop = () => {
+const ProductsShop = memo(() => {
   return (
     <div className="container py-4">
       <h2 className="section-title">Our <span>Products</span></h2>
@@ -31,7 +32,9 @@ const ProductsShop = () => {
         {products.map((product) => (
           <div key={product.id} className="col-12 col-md-6 col-lg-3 mb-4">
             <Link to={`/product/${product.id}`} className="card product-card">
-              <img src={product.imgSrc} alt={product.title} className="card-img-top" />
+              <LazyLoad height={300} offset={100} once>
+                <img src={product.imgSrc} alt={product.title} className="card-img-top" />
+              </LazyLoad>
               <div className="card-body text-center">
                 <h5 className="card-title">{product.title}</h5>
                 <p className="card-price">{product.price}</p>
@@ -53,6 +56,6 @@ const ProductsShop = () => {
       </div>
     </div>
   );
-};
+});
 
 export default ProductsShop;

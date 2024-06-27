@@ -10,6 +10,7 @@ import Img6 from '../assets/images/Blog/blog6.jpg';
 import Img7 from '../assets/images/Blog/blog7.jpg';
 import Img8 from '../assets/images/Blog/blog8.jpg';
 import Pagination from '../components/Paginations';
+import LazyLoad from 'react-lazyload';
 
 const blogPosts = [
     { id: 1, img: Img1, title: 'Post 1', date: '18 NOV', description: 'Curabitur porttitor orci eget neque accumsan venenatis. Nunc fermentum.' },
@@ -50,7 +51,9 @@ const Blog = () => {
                     {currentPosts.map(post => (
                         <div key={post.id} className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
                             <div className="card h-100">
-                                <img src={post.img} className="card-img-top" alt={post.title} />
+                                <LazyLoad height={200} offset={100} once>
+                                    <img src={post.img} className="card-img-top" alt={post.title} />
+                                </LazyLoad>
                                 <div className="card-body">
                                     <div className="d-flex align-items-center mb-3">
                                         <div className="date-badge bg-light me-2">{post.date}</div>
