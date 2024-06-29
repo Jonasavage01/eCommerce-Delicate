@@ -1,0 +1,58 @@
+/* ContactPage.css */
+
+.container5.contact-page {
+    background-color: #f8f9fa; 
+    min-height: 100vh; 
+    padding-top: 8%; 
+    font-size: 1.25rem; 
+  }
+  
+  .contact-page-row {
+    max-width: 1200px;
+    max-height: 600px;
+  }
+  
+
+  .contact-box {
+    border-radius: 10px!important;
+   
+  }
+
+  .contact-box-right{
+    padding: 5% !important;
+  }
+  
+  .contact-icon {
+    font-size: 36px;
+    color: green;
+    padding-top: 10%;
+  }
+  
+  .text-center i {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-input {
+    font-size: 1.25rem; /* Aumentar tamaño de fuente de los inputs */
+    padding: 0.75rem; /* Aumentar el padding de los inputs */
+    border-radius: 15px; /* Redondear los bordes de los inputs */
+  }
+  
+  .contact-title {
+    font-size: 2rem; /* Hacer más grande el título */
+    margin-bottom: 1rem;
+  }
+  
+  .contact-subtitle {
+    font-size: 1rem !important; /* Hacer más pequeño el subtítulo */
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact-button {
+    font-size: 1rem; /* Aumentar tamaño de fuente del botón */
+    padding: 0.70rem 1.2rem; /* Aumentar el padding del botón */
+    border-radius: 50px; /* Redondear más el botón */
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .15)!important; /* Aumentar la sombra del botón */
+  }
+  

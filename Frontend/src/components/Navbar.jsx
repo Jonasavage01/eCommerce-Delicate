@@ -30,7 +30,7 @@ const Navbar = () => {
         };
     }, []);
 
-    const pagesWithBlackBg = ['/product/', '/wishlist', '/ShoppingCart'];
+    const pagesWithBlackBg = ['/product/', '/wishlist', '/ShoppingCart', '/contact'];
     const isPageWithBlackBg = pagesWithBlackBg.some((page) => location.pathname.includes(page));
 
     return (

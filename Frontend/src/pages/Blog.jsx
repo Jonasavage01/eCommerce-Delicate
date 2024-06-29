@@ -11,6 +11,7 @@ import Img7 from '../assets/images/Blog/blog7.jpg';
 import Img8 from '../assets/images/Blog/blog8.jpg';
 import Pagination from '../components/Paginations';
 import LazyLoad from 'react-lazyload';
+import { useNavigate } from 'react-router-dom';
 
 const blogPosts = [
     { id: 1, img: Img1, title: 'Post 1', date: '18 NOV', description: 'Curabitur porttitor orci eget neque accumsan venenatis. Nunc fermentum.' },
@@ -25,8 +26,9 @@ const blogPosts = [
 
 const Blog = () => {
     const [currentPage, setCurrentPage] = useState(1);
-    const postsPerPage = 4;
-    
+    const postsPerPage = 8;
+    const navigate = useNavigate();
+
     const indexOfLastPost = currentPage * postsPerPage;
     const indexOfFirstPost = indexOfLastPost - postsPerPage;
     const currentPosts = blogPosts.slice(indexOfFirstPost, indexOfLastPost);
@@ -35,6 +37,10 @@ const Blog = () => {
 
     const onPageChange = (pageNumber) => {
         setCurrentPage(pageNumber);
+    };
+
+    const handleReadMore = (id) => {
+        navigate(`/blog/${id}`);
     };
 
     return (
@@ -63,7 +69,7 @@ const Blog = () => {
                                     </div>
                                     <h5 className="card-title">{post.title}</h5>
                                     <p className="card-text">{post.description}</p>
-                                    <a href="#" className="text-success">Read More →</a>
+                                    <a href="#" className="text-success" onClick={() => handleReadMore(post.id)}>Read More →</a>
                                 </div>
                             </div>
                         </div>
