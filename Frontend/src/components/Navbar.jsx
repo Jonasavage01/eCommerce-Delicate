@@ -30,7 +30,7 @@ const Navbar = () => {
     }, []);
 
     // Actualiza la ruta para que coincida con la estructura real de tu aplicación
-    const pagesWithBlackBg = ['/product/', '/wishlist', '/ShoppingCart', '/contact', '/about', '/blog/'];
+    const pagesWithBlackBg = ['/product/',  '/ShoppingCart', '/contact', '/about', '/blog/', '/UserPage'];
     const isPageWithBlackBg = pagesWithBlackBg.some((page) => location.pathname.startsWith(page));
 
     console.log('Current Path:', location.pathname); // Añadido para depuración
@@ -53,7 +53,7 @@ const Navbar = () => {
                             <Link className="nav-link position-relative" to="/ShoppingCart">
                                 <FontAwesomeIcon icon={faShoppingCart} />
                             </Link>
-                            <Link className="nav-link position-relative" to="/wishlist">
+                            <Link className="nav-link position-relative" to="/UserPage">
                                 <FontAwesomeIcon icon={faUser} />
                             </Link>
                         </div>
@@ -84,7 +84,7 @@ const Navbar = () => {
                         <Link className="nav-link position-relative" to="/ShoppingCart">
                             <FontAwesomeIcon icon={faShoppingCart} />
                         </Link>
-                        <Link className="nav-link position-relative" to="/wishlist">
+                        <Link className="nav-link position-relative" to="/UserPage">
                             <FontAwesomeIcon icon={faUser} />
                         </Link>
                     </div>

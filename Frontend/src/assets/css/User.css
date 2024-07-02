@@ -1,42 +1,62 @@
+/* User.css */
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
 .user-page-container {
-    margin-top: 20px;
-  }
-  
-  .user-navigation {
-    background-color: #f8f9fa;
-    border-radius: 8px;
-  }
-  
-  .user-navigation a {
-    color: #333;
-    text-decoration: none;
-  }
-  
-  .user-navigation a:hover {
-    text-decoration: underline;
-  }
-  
-  .user-card {
-    background-color: #f8f9fa;
-    border-radius: 8px;
-    width: 48%;
-  }
-  
-  .user-info-container {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .history-container {
-    background-color: #f8f9fa;
-    border-radius: 8px;
-  }
-  
-  .history-container h5 {
-    margin-bottom: 20px;
-  }
-  
-  .table th, .table td {
-    vertical-align: middle;
-  }
-  
+  margin-top: 6%;
+}
+
+.user-navigation {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.user-navigation a {
+  color: #333;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+.user-navigation a:hover {
+  background-color: #f1f1f1;
+}
+
+.user-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 48%;
+  padding: 20px;
+}
+
+.user-info-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.history-container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+.history-container h5 {
+  margin-bottom: 20px;
+}
+
+.table th, .table td {
+  vertical-align: middle;
+}
+
+.table a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.table a:hover {
+  text-decoration: underline;
+}

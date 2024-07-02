@@ -12,8 +12,9 @@ import BlogDetail from './pages/BlogDetail';
 import ProductDetail from './pages/ProductDetail';
 import ShoppingCart from './pages/ShoppingCart';
 import Checkout from './pages/Checkout';
-import OrderConfirmation from './pages/OrderConfirmation';
+import OrderConfirmation from './pages/OrderConfirmation'
 import ThankYouPage from './pages/ThankYouPage';
+import UserPage from './pages/UserPage';
 
 function App() {
   return (
@@ -31,6 +32,8 @@ function App() {
         <Route path="/Checkout" element={<Checkout />} />
         <Route path="/OrderConfirmation" element={<OrderConfirmation />} />
         <Route path="/ThankYouPage" element={<ThankYouPage />} />
+        <Route path="/UserPage" element={<UserPage />} />
+
       </Routes>
     </Router>
   );
