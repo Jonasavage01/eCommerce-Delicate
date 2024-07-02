@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css'; 
-import { useLocation } from 'react-router-dom';
-import { Link } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { useLocation, Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faShoppingCart, faBars, faTimes, faHeart } from '@fortawesome/free-solid-svg-icons';
+import { faShoppingCart, faBars, faTimes, faHeart, faUser } from '@fortawesome/free-solid-svg-icons';
 import '../assets/css/Navbar.css';
 
 const Navbar = () => {
@@ -30,8 +29,16 @@ const Navbar = () => {
         };
     }, []);
 
-    const pagesWithBlackBg = ['/product/', '/wishlist', '/ShoppingCart', '/contact'];
-    const isPageWithBlackBg = pagesWithBlackBg.some((page) => location.pathname.includes(page));
+    // Actualiza la ruta para que coincida con la estructura real de tu aplicación
+    const pagesWithBlackBg = ['/product/', '/wishlist', '/ShoppingCart', '/contact', '/about', '/blog/'];
+    const isPageWithBlackBg = pagesWithBlackBg.some((page) => location.pathname.startsWith(page));
+
+    console.log('Current Path:', location.pathname); // Añadido para depuración
+
+    // No mostrar Navbar en la página de checkout
+    if (location.pathname === '/Checkout' ) {
+        return null;
+    }
 
     return (
         <>
@@ -43,13 +50,11 @@ const Navbar = () => {
                     </Link>
                     <div className="d-flex align-items-center">
                         <div className="navbar-icons d-lg-none order-1 d-flex align-items-center">
-                            <Link className="nav-link position-relative" to="/wishlist">
-                                <FontAwesomeIcon icon={faHeart} />
-                                <span className="icon-badge">0</span>
-                            </Link>
                             <Link className="nav-link position-relative" to="/ShoppingCart">
                                 <FontAwesomeIcon icon={faShoppingCart} />
-                                <span className="icon-badge">0</span>
+                            </Link>
+                            <Link className="nav-link position-relative" to="/wishlist">
+                                <FontAwesomeIcon icon={faUser} />
                             </Link>
                         </div>
                         <button className="navbar-toggler order-2" type="button" onClick={toggleNavbar}>
@@ -76,13 +81,11 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="navbar-icons d-none d-lg-flex align-items-center">
-                        <Link className="nav-link position-relative" to="/wishlist">
-                            <FontAwesomeIcon icon={faHeart} />
-                            <span className="icon-badge">0</span>
-                        </Link>
                         <Link className="nav-link position-relative" to="/ShoppingCart">
                             <FontAwesomeIcon icon={faShoppingCart} />
-                            <span className="icon-badge">0</span>
+                        </Link>
+                        <Link className="nav-link position-relative" to="/wishlist">
+                            <FontAwesomeIcon icon={faUser} />
                         </Link>
                     </div>
                 </div>

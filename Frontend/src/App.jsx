@@ -10,8 +10,10 @@ import Contact from './pages/Contact';
 import Blog from './pages/Blog';
 import BlogDetail from './pages/BlogDetail';
 import ProductDetail from './pages/ProductDetail';
-import Wishlist from './pages/Wishlist';
 import ShoppingCart from './pages/ShoppingCart';
+import Checkout from './pages/Checkout';
+import OrderConfirmation from './pages/OrderConfirmation';
+import ThankYouPage from './pages/ThankYouPage';
 
 function App() {
   return (
@@ -25,8 +27,10 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:id" element={<BlogDetail />} />
         <Route path="/product/:id" element={<ProductDetail />} />
-        <Route path="/wishlist" element={<Wishlist />} />
         <Route path="/ShoppingCart" element={<ShoppingCart />} />
+        <Route path="/Checkout" element={<Checkout />} />
+        <Route path="/OrderConfirmation" element={<OrderConfirmation />} />
+        <Route path="/ThankYouPage" element={<ThankYouPage />} />
       </Routes>
     </Router>
   );

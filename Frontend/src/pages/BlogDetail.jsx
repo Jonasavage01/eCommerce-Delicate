@@ -1,9 +1,9 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import { Container, Row, Col, Button, Form } from 'react-bootstrap';
+import { Container, Button, Form } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faTwitter, faPinterest, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faComments } from '@fortawesome/free-solid-svg-icons';
+import { faFacebook, faTwitter, faPinterest, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import Img1 from '../assets/images/Blog/blog1.jpg';
 import Img2 from '../assets/images/Blog/blog2.jpg';
 import Img3 from '../assets/images/Blog/blog3.jpg';
@@ -26,21 +26,13 @@ const BlogDetail = () => {
     const blog = blogPosts.find(post => post.id === parseInt(id));
 
     return (
-        <Container className="blog-detail">
-            <img src={blog.img} alt="Blog Header" className="img-fluid mb-4 rounded" />
+        <Container className="blog-detail mt-5">
+            <img src={blog.img} alt="Blog Header" className="img-fluid mb-4 rounded" style={{ maxHeight: '500px', width: '100%', objectFit: 'cover' }} />
             <h1 className="blog-title">{blog.title}</h1>
             <div className="blog-meta mb-4">
                 <span>Food</span> | <span>By Admin</span> | <span>65 Comments</span>
             </div>
             <p className="blog-content">{blog.content}</p>
-            <Row className="my-4">
-                <Col md={6}>
-                    <img src={Img2} alt="Blog Detail" className="img-fluid rounded" />
-                </Col>
-                <Col md={6}>
-                    <img src={Img3} alt="Blog Detail" className="img-fluid rounded" />
-                </Col>
-            </Row>
             <p className="blog-content">
                 Mauris pretium elit a dui pulvinar, in ornare sapien euismod. Nullam interdum nisl ante, id feugiat quam euismod commodo.
             </p>
@@ -57,11 +49,10 @@ const BlogDetail = () => {
             <div className="blog-comments my-4">
                 <h2><FontAwesomeIcon icon={faComments} /> Comments</h2>
                 {comments.map((comment, index) => (
-                    <div key={index} className="comment mb-3">
+                    <div key={index} className="comment mb-3 p-3 border rounded">
                         <h5>{comment.name}</h5>
                         <span className="comment-date">{comment.date}</span>
                         <p>{comment.message}</p>
-                        <hr />
                     </div>
                 ))}
             </div>
@@ -73,12 +64,6 @@ const BlogDetail = () => {
                     </Form.Group>
                     <Button variant="primary" type="submit" className="mt-2">Submit</Button>
                 </Form>
-            </div>
-            <div className="blog-banner mt-5 p-4 text-center rounded">
-                <h2>SUMMER SALES</h2>
-                <p>Fresh Fruit</p>
-                <span className="discount">UP TO 56% Off</span>
-                <Button variant="success" className="mt-3">Shop Now</Button>
             </div>
         </Container>
     );

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+@font-face {
+  font-family: 'MiFuente';
+  src: url('../fonts/AbyssinicaSIL-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+  margin-top: 7%;
+}
+
+.light-mode-item {
+  background-color: #f8f9fa;
+  color: #000000;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.light-mode-item:hover {
+  background-color: #e9ecef !important;
+  color: #000000 !important;
+  box-shadow: 0 0 45px rgba(0, 0, 0, 0.1);
+}
+
+.light-mode-item:hover h1,
+.light-mode-item:hover h4,
+.light-mode-item:hover span {
+  color: #000000 !important;
+}
+
+.fact-item {
+  transition: margin-top 0.3s;
+}
+
+.fact-item:hover {
+  margin-top: -10px;
+}
+
+.text-dark {
+  color: #343a40 !important;
+}
+
+.text-primary {
+  color: #007bff !important;
+}
+
+.text-uppercase {
+  font-size: 2rem; /* Increased font size */
+}
+
+.display-4 {
+  font-size: 4rem; /* Increased font size for main title */
+}
+
+.display-1 {
+  font-size: 5rem; /* Larger font size for the counts */
+}
+
+@import 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css';
+
+.container.animate__animated.animate__fadeInUp {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}

@@ -1,0 +1,42 @@
+.user-page-container {
+    margin-top: 20px;
+  }
+  
+  .user-navigation {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+  }
+  
+  .user-navigation a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .user-navigation a:hover {
+    text-decoration: underline;
+  }
+  
+  .user-card {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    width: 48%;
+  }
+  
+  .user-info-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .history-container {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+  }
+  
+  .history-container h5 {
+    margin-bottom: 20px;
+  }
+  
+  .table th, .table td {
+    vertical-align: middle;
+  }
+  

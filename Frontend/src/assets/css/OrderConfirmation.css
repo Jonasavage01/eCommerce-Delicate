@@ -1,0 +1,57 @@
+.confirm-order-container {
+    max-width: 1200px; /* Incrementado para hacerlo más grande */
+  }
+  
+  .card13 {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card13 h3 {
+    border-bottom: 2px solid #f8f9fa;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1.75rem; /* Incrementado el tamaño de la fuente */
+  }
+  
+  .card13 p, .card13 li {
+    font-size: 1.25rem; /* Incrementado el tamaño de la fuente */
+  }
+  
+  .order-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .order-item-img {
+    width: 70px; /* Incrementado para hacerlo más grande */
+    height: 70px; /* Incrementado para hacerlo más grande */
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-size: 1.25rem; /* Incrementado el tamaño de la fuente */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+  .btn-secondary.cancel-button {
+    background-color: #e0e0e0; /* Color neutro para que no llame la atención */
+    border-color: #e0e0e0;
+    color: #6c757d; /* Texto gris para menor contraste */
+    font-size: 1.25rem; /* Incrementado el tamaño de la fuente */
+  }
+  
+  .btn-secondary.cancel-button:hover {
+    background-color: #d6d6d6; /* Color ligeramente más oscuro en hover */
+    border-color: #d6d6d6;
+  }
+  

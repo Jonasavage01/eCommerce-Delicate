@@ -71,7 +71,8 @@ const ShoppingCart = () => {
               <p className="card-text">Subtotal: ${total.toFixed(2)}</p>
               <p className="card-text">Shipping: Free</p>
               <h5 className="card-text">Total: ${total.toFixed(2)}</h5>
-              <Link to="/checkout" className="btn btn-success w-100">Proceed to checkout</Link>
+              <Link to="/Checkout" className="btn btn-success w-100 mb-2">Member Check Out</Link>
+              <Link to="/guest-checkout" className="btn btn-outline-success w-100">Guest Check Out</Link>
             </div>
           </div>
         </div>
