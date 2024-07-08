@@ -16,7 +16,7 @@ a {
 /* Navbar Styles */
 
 .nav-link.active {
-    color: #f1964c;
+    color: #f1964c !important;
 }
 
 .navbar {
