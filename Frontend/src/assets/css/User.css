@@ -60,3 +60,114 @@
 .table a:hover {
   text-decoration: underline;
 }
+
+/* Order Details */
+
+.order-details-container {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.order-summary .status-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #000;
+}
+
+.order-summary .status-circle.completed {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.order-summary .status-line {
+  flex: 1;
+  height: 2px;
+  background-color: #eee;
+}
+
+.order-summary .status-line.completed {
+  background-color: #28a745;
+}
+
+.order-summary .card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.order-summary h6 {
+  margin-bottom: 0;
+}
+
+.order-summary hr {
+  margin: 0.5rem 0;
+}
+
+.order-summary-details p {
+  margin: 0.5rem 0;
+}
+
+.product-img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.card p strong {
+  color: #333;
+}
+
+.card p .text-muted {
+  color: #6c757d;
+}
+
+
+/* Settings Page */
+.user-page-container {
+  background-color: #f9f9f9;
+}
+
+.settings-container {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.settings-container h4 {
+  margin-bottom: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.card form {
+  margin: 0;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #333;
+}
+
+.form-control {
+  margin-bottom: 10px;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+  font-weight: bold;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}

@@ -12,9 +12,12 @@ import BlogDetail from './pages/BlogDetail';
 import ProductDetail from './pages/ProductDetail';
 import ShoppingCart from './pages/ShoppingCart';
 import Checkout from './pages/Checkout';
-import OrderConfirmation from './pages/OrderConfirmation'
+import OrderConfirmation from './pages/OrderConfirmation';
 import ThankYouPage from './pages/ThankYouPage';
 import UserPage from './pages/UserPage';
+import OrderHistoryPage from './pages/OrderHistoryPage';
+import OrderDetailsPage from './pages/OrderDetailsPage';
+import SettingsPage from './pages/SettingsPage'; // Importa el nuevo componente
 
 function App() {
   return (
@@ -33,7 +36,9 @@ function App() {
         <Route path="/OrderConfirmation" element={<OrderConfirmation />} />
         <Route path="/ThankYouPage" element={<ThankYouPage />} />
         <Route path="/UserPage" element={<UserPage />} />
-
+        <Route path="/OrderHistoryPage" element={<OrderHistoryPage />} />
+        <Route path="/orderdetails/:id" element={<OrderDetailsPage />} />
+        <Route path="/settings" element={<SettingsPage />} /> {/* Agrega la nueva ruta */}
       </Routes>
     </Router>
   );

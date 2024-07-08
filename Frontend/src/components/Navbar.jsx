@@ -30,7 +30,17 @@ const Navbar = () => {
     }, []);
 
     // Actualiza la ruta para que coincida con la estructura real de tu aplicación
-    const pagesWithBlackBg = ['/product/',  '/ShoppingCart', '/contact', '/about', '/blog/', '/UserPage'];
+    const pagesWithBlackBg = [
+        '/product/',
+        '/ShoppingCart',
+        '/contact',
+        '/about',
+        '/blog/',
+        '/UserPage',
+        '/OrderHistoryPage',
+        '/orderdetails/', 
+        '/settings'
+      ];
     const isPageWithBlackBg = pagesWithBlackBg.some((page) => location.pathname.startsWith(page));
 
     console.log('Current Path:', location.pathname); // Añadido para depuración

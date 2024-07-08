@@ -1,12 +1,10 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
-import UserInfo from '../components/UserInfo';
 import OrderHistory from '../components/OrderHistory';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../assets/css/User.css';
 
-
-const UserPage = () => {
+const OrderHistoryPage = () => {
   return (
     <div className="user-page-container p-4">
       <div className="row">
@@ -14,7 +12,6 @@ const UserPage = () => {
           <Navigation />
         </div>
         <div className="col-lg-9">
-          <UserInfo />
           <OrderHistory />
         </div>
       </div>
@@ -22,4 +19,4 @@ const UserPage = () => {
   );
 };
 
-export default UserPage;
+export default OrderHistoryPage;
