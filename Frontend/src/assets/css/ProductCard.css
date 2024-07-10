@@ -7,14 +7,15 @@
 
 .section-title {
   text-align: center;
-  font-size: 4rem;
+  font-size: 5.5rem !important;
   margin-bottom: 5%;
   margin-top: 10%;
-  font-size: Pro-text;
+  font-family: Pro-text;
+  font-weight: bold;
 }
 
 .section-title span {
-  color: #f28123; /* Color similar al de la imagen proporcionada */
+  color: #000000; 
 }
 
 .section-subtitle {

@@ -94,6 +94,30 @@ const Navbar = () => {
                         </NavLink>
                     </div>
                 </div>
+                {!navbarCollapsed && (
+                    <div className="hamburger-menu d-lg-none">
+                        <button className="close-btn" onClick={toggleNavbar}>
+                            <FontAwesomeIcon icon={faTimes} />
+                        </button>
+                        <ul className="hamburger-menu-list">
+                            <li className="hamburger-menu-item">
+                                <NavLink className="hamburger-menu-link" to="/" onClick={toggleNavbar}>Home</NavLink>
+                            </li>
+                            <li className="hamburger-menu-item">
+                                <NavLink className="hamburger-menu-link" to="/shop" onClick={toggleNavbar}>Shop</NavLink>
+                            </li>
+                            <li className="hamburger-menu-item">
+                                <NavLink className="hamburger-menu-link" to="/about" onClick={toggleNavbar}>About</NavLink>
+                            </li>
+                            <li className="hamburger-menu-item">
+                                <NavLink className="hamburger-menu-link" to="/contact" onClick={toggleNavbar}>Contact</NavLink>
+                            </li>
+                            <li className="hamburger-menu-item">
+                                <NavLink className="hamburger-menu-link" to="/blog" onClick={toggleNavbar}>Blog</NavLink>
+                            </li>
+                        </ul>
+                    </div>
+                )}
             </nav>
         </>
     );
