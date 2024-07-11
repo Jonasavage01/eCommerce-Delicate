@@ -1,5 +1,52 @@
 import React from 'react';
+import styled from 'styled-components';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+const PaginationNav = styled.nav`
+  .pagination {
+    margin-top: 30px;
+  }
+
+  .page-item.disabled .page-link {
+    color: #6c757d;
+    pointer-events: none;
+    background-color: #fff;
+    border-color: #dee2e6;
+  }
+
+  .page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #22d63d;
+    border-color: #22d63d;
+  }
+
+  .page-link {
+    color: #22d63d;
+  }
+
+  .page-link:hover {
+    color: #22d63d;
+  }
+
+  .page-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: #22d63d;
+    color: #fff;
+    border: none;
+    margin: 0 0.25rem;
+    transition: background-color 0.2s ease;
+  }
+
+  .page-link:hover {
+    background-color: #22d63d;
+  }
+`;
 
 const Paginations = ({ currentPage, totalPages, onPageChange }) => {
   const pageNumbers = [];
@@ -13,7 +60,7 @@ const Paginations = ({ currentPage, totalPages, onPageChange }) => {
   };
 
   return (
-    <nav aria-label="Page navigation">
+    <PaginationNav aria-label="Page navigation">
       <ul className="pagination justify-content-center">
         <li className={`page-item ${currentPage === 1 ? 'disabled' : ''}`}>
           <button className="page-link" onClick={() => handlePageChange(currentPage - 1)} aria-label="Previous">
@@ -33,7 +80,7 @@ const Paginations = ({ currentPage, totalPages, onPageChange }) => {
           </button>
         </li>
       </ul>
-    </nav>
+    </PaginationNav>
   );
 };
 

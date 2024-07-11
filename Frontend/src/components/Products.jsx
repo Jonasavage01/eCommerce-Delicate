@@ -27,7 +27,7 @@ const products = [
 const ProductCard = ({ onQuickView }) => {
   return (
     <div className="container py-4">
-      <h2 className="section-title"> <span> Our </span> Products </h2>
+      <h2 className="section-title"> Our <span>Products</span> </h2>
       <div className="row">
         {products.map((product, index) => (
           <div key={index} className="col-12 col-md-6 col-lg-3 mb-4">

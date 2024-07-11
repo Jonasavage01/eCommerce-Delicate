@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Slider from 'react-slick';
-import '../assets/css/About-hero.css';
+import styled, { keyframes } from 'styled-components';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
@@ -39,40 +39,175 @@ const AboutHero = () => {
   };
 
   return (
-    <div className="slider-area2">
-      <div className={`slider-item-active ${fadeClass}`} style={{ backgroundImage: `url(${mainImage})` }}>
+    <SliderArea>
+      <SliderItemActive className={fadeClass} mainImage={mainImage}>
         <Slider {...settings}>
           {slides.map((slide, index) => (
             <div key={index} className="slider-item">
-              <div className="slider-height hero-overly d-flex align-items-center justify-content-center">
+              <SliderHeight className="hero-overly d-flex align-items-center justify-content-center">
                 <div className="container">
                   <div className="row">
                     <div className="col-12 text-center">
-                      <div className="slide-content">
-                        <h1 className="title">About us</h1>
-                        <p className="caption">{slide.caption}</p>
-                      </div>
+                      <SlideContent>
+                        <Title>About us</Title>
+                        <Caption>{slide.caption}</Caption>
+                      </SlideContent>
                     </div>
                   </div>
                 </div>
-              </div>
+              </SliderHeight>
             </div>
           ))}
         </Slider>
-      </div>
-      <div className="thumbnail-container">
+      </SliderItemActive>
+      <ThumbnailContainer>
         {slides.map((slide, index) => (
-          <div
-            key={index}
-            onClick={() => changeImage(slide.image)}
-            className="thumbnail"
-          >
+          <Thumbnail key={index} onClick={() => changeImage(slide.image)}>
             <img src={slide.image} alt={`thumb ${index + 1}`} />
-          </div>
+          </Thumbnail>
         ))}
-      </div>
-    </div>
+      </ThumbnailContainer>
+    </SliderArea>
   );
 };
 
 export default AboutHero;
+
+// Styled-components
+
+const fadeIn = keyframes`
+  from { opacity: 0.2; background-color: rgba(255, 255, 255, 1); }
+  to { opacity: 1; background-color: rgba(255, 255, 255, 0); }
+`;
+
+const fadeOut = keyframes`
+  from { opacity: 1; background-color: rgba(255, 255, 255, 0); }
+  to { opacity: 0.2; background-color: rgba(255, 255, 255, 1); }
+`;
+
+const SliderArea = styled.div`
+  position: relative;
+  height: 100vh;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ffffff !important;
+
+  @media (max-width: 1200px) {
+    height: auto;
+  }
+`;
+
+const SliderItemActive = styled.div`
+  background-image: url(${props => props.mainImage});
+  animation: ${props => (props.className === 'fade-in' ? fadeIn : fadeOut)} 0.5s forwards;
+  height: 100%;
+
+  .slick-track {
+    display: flex;
+    align-items: center;
+  }
+
+  @media (max-width: 768px) {
+    height: auto;
+    background-size: cover;
+    background-position: center;
+  }
+`;
+
+const SliderHeight = styled.div`
+  background: none !important;
+  height: 100vh;
+
+  @media (max-width: 1200px) {
+    height: auto;
+  }
+`;
+
+const SlideContent = styled.div`
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  @media (max-width: 1200px) {
+    height: auto;
+  }
+`;
+
+const Title = styled.h1`
+  font-size: 10rem;
+  color: #fff;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: 'Pro-text';
+  font-weight: bold;
+
+  @media (max-width: 768px) {
+    font-size: 3rem;
+  }
+
+  @media (max-width: 576px) {
+    font-size: 2rem;
+  }
+`;
+
+const Caption = styled.p`
+  font-size: 2rem;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+  font-family: 'Poppings-light';
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
+
+  @media (max-width: 576px) {
+    font-size: 0.8rem;
+  }
+`;
+
+const ThumbnailContainer = styled.div`
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-wrap: wrap;
+
+  @media (max-width: 768px) {
+    bottom: 10px;
+    right: 10px;
+  }
+`;
+
+const Thumbnail = styled.div`
+  cursor: pointer;
+  margin: 0 10px;
+  transition: transform 0.3s;
+
+  img {
+    width: 120px;
+    height: 70px;
+    object-fit: cover;
+
+    @media (max-width: 768px) {
+      width: 80px;
+      height: 50px;
+    }
+
+    @media (max-width: 576px) {
+      width: 60px;
+      height: 40px;
+    }
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
+`;

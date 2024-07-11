@@ -47,15 +47,22 @@
     opacity: 1;
 }
 
-.section-title {
-    font-size: 3.5rem;
+.section-title3 {
+    font-size: 4.5rem;
     margin-top: 10%;
     text-align: center;
-    color:#f7941d;
+    color:#000000;
     font-family: Pro-text;
+    font-weight: bold;
+    margin-bottom: 3%;
+    
+    
    
 }
 
+span {
+    color: #f28123 !important;
+}
 
 @media (max-width: 750px) {
     .section-title {

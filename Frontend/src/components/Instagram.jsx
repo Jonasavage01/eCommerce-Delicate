@@ -12,7 +12,7 @@ const InstagramSection = () => {
         <section id="instagram" className="padding-large">
             <div className="container">
                 <div className="section-header">
-                    <h2 className="section-title">Follow our Instagram</h2>
+                    <h2 className="section-title3">Follow our <span>Instagram </span> </h2>
                 </div>
                 
                 <div className="row d-flex flex-wrap justify-content-center">
