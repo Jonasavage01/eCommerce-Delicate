@@ -14,14 +14,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart, faEye, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const products = [
-  { title: 'Strawberry', price: '85$', imgSrc: strawberryImg },
-  { title: 'Berry', price: '70$', imgSrc: berryImg },
-  { title: 'Lemon', price: '35$', imgSrc: lemonImg },
-  { title: 'Apple', price: '50$', imgSrc: appleImg },
-  { title: 'Banana', price: '25$', imgSrc: lemonImg },
-  { title: 'Orange', price: '40$', imgSrc: orangeImg },
-  { title: 'Grapes', price: '65$', imgSrc: grapesImg },
-  { title: 'Kiwi', price: '90$', imgSrc: kiwiImg },
+  { title: 'Strawberry', price: '85$', imgSrc: strawberryImg, className: 'product-1' },
+  { title: 'Berry', price: '70$', imgSrc: berryImg, className: 'product-2' },
+  { title: 'Lemon', price: '35$', imgSrc: lemonImg, className: 'product-3' },
+  { title: 'Apple', price: '50$', imgSrc: appleImg, className: 'product-4' },
+  { title: 'Banana', price: '25$', imgSrc: lemonImg, className: 'product-5' },
+  { title: 'Orange', price: '40$', imgSrc: orangeImg, className: 'product-6' },
+  { title: 'Grapes', price: '65$', imgSrc: grapesImg, className: 'product-7' },
+  { title: 'Kiwi', price: '90$', imgSrc: kiwiImg, className: 'product-8' },
 ];
 
 const ProductCard = ({ onQuickView }) => {
@@ -30,7 +30,7 @@ const ProductCard = ({ onQuickView }) => {
       <h2 className="section-title"> Our <span>Products</span> </h2>
       <div className="row">
         {products.map((product, index) => (
-          <div key={index} className="col-12 col-md-6 col-lg-3 mb-4">
+          <div key={index} className={`col-12 col-md-6 col-lg-3 mb-4 ${product.className}`}>
             <div className="card product-card">
               <img src={product.imgSrc} alt={product.title} className="card-img-top" />
               <div className="card-body text-center">

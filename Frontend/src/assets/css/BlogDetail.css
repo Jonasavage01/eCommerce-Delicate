@@ -1,3 +1,25 @@
+/* Font Faces */
+@font-face {
+    font-family: 'Pro-text';
+    src: url('../fonts/Pro-text.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppings-regular';
+    src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppings-semibold';
+    src: url('../fonts/Poppins-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppings-light';
+    src: url('../fonts/Poppins-Light.ttf') format('truetype');
+}
+
+/* Blog Detail */
 .blog-detail {
     margin-top: 9rem !important;
     padding: 2rem;
@@ -5,20 +27,31 @@
     background: #fff;
 }
 
+.blog-detail img {
+    max-height: 500px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
 .blog-title {
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 1rem;
+    font-family: 'Pro-text';
 }
 
 .blog-meta {
     font-size: 1rem;
     color: #888;
+    font-family: 'Poppings-regular';
 }
 
 .blog-content {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     margin-bottom: 1.5rem;
+    font-family: 'Poppings-light';
+    line-height: 1.7;
 }
 
 .blog-share {
@@ -26,43 +59,52 @@
     align-items: center;
     gap: 20px;
     font-size: 1.5rem;
+    font-family: 'Poppings-regular';
+}
+
+.blog-share span {
+    font-family: 'Poppings-semibold';
+    color: #f28123;
 }
 
 .blog-comments {
     font-size: 1.5rem;
+    font-family: 'Poppings-regular';
+}
+
+.comment {
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.comment h5 {
+    font-family: 'Poppings-semibold';
 }
 
 .comment-date {
-    font-size: 1rem;
+    font-size: 0.875rem;
     color: #888;
+    font-family: 'Poppings-light';
 }
 
 .leave-message {
     font-size: 1.5rem;
+    font-family: 'Poppings-regular';
 }
 
-.blog-banner {
-    background-image: url('../assets/images/Blog/blog4.jpg');
-    background-size: cover;
-    background-position: center;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+.leave-message h2 {
+    font-family: 'Poppings-semibold';
 }
 
-.discount {
-    font-size: 1.5rem;
-    font-weight: bold;
-    background: #ffc107;
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-
+/* Responsive Design */
 @media (max-width: 1200px) {
     .blog-title {
         font-size: 2.25rem;
     }
     .blog-content {
-        font-size: 1.25rem;
+        font-size: 1.15rem;
     }
 }
 

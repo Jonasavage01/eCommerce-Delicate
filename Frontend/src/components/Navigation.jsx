@@ -18,11 +18,6 @@ const Navigation = () => {
         </li>
         <li className="mb-3">
           <a href="#">
-            <i className="fas fa-heart me-2"></i> Wishlist
-          </a>
-        </li>
-        <li className="mb-3">
-          <a href="#">
             <i className="fas fa-shopping-cart me-2"></i> Shopping Cart
           </a>
         </li>

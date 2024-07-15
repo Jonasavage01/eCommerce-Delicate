@@ -69,7 +69,7 @@ const Blog = () => {
                                     </div>
                                     <h5 className="card-title">{post.title}</h5>
                                     <p className="card-text">{post.description}</p>
-                                    <a href="#" className="text-success" onClick={() => handleReadMore(post.id)}>Read More →</a>
+                                    <button className="text-success btn-read-more" onClick={() => handleReadMore(post.id)}>Read More →</button>
                                 </div>
                             </div>
                         </div>

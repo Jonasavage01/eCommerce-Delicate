@@ -27,7 +27,7 @@ const BlogDetail = () => {
 
     return (
         <Container className="blog-detail mt-5">
-            <img src={blog.img} alt="Blog Header" className="img-fluid mb-4 rounded" style={{ maxHeight: '500px', width: '100%', objectFit: 'cover' }} />
+            <img src={blog.img} alt="Blog Header" className="img-fluid mb-4 rounded" />
             <h1 className="blog-title">{blog.title}</h1>
             <div className="blog-meta mb-4">
                 <span>Food</span> | <span>By Admin</span> | <span>65 Comments</span>

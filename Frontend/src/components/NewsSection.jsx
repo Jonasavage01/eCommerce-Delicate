@@ -8,11 +8,10 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 const NewsSection = () => {
   return (
     <div className="container2 my-5">
-      <div className="text-center mb-5">
+      <div className="text-center mb-3">
         <h2 className="text-uppercase display-4">
           <span className="text-orange">Our</span> News
         </h2>
-        <p className="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquid, fuga quas itaque eveniet beatae optio.</p>
       </div>
       <div className="row">
         <div className="col-md-4 col-12">

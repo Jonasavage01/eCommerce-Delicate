@@ -4,7 +4,6 @@ import styled, { keyframes } from 'styled-components';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-// Importación de las imágenes
 import Image1 from '../assets/images/About/main1.png';
 import Image2 from '../assets/images/About/main2.png';
 import Image3 from '../assets/images/About/main3.png';
@@ -40,14 +39,14 @@ const AboutHero = () => {
 
   return (
     <SliderArea>
-      <SliderItemActive className={fadeClass} mainImage={mainImage}>
+      <SliderItemActive className={fadeClass} $mainImage={mainImage}>
         <Slider {...settings}>
           {slides.map((slide, index) => (
             <div key={index} className="slider-item">
               <SliderHeight className="hero-overly d-flex align-items-center justify-content-center">
                 <div className="container">
                   <div className="row">
-                    <div className="col-12 text-center">
+                    <div className="col-12">
                       <SlideContent>
                         <Title>About us</Title>
                         <Caption>{slide.caption}</Caption>
@@ -73,8 +72,6 @@ const AboutHero = () => {
 
 export default AboutHero;
 
-// Styled-components
-
 const fadeIn = keyframes`
   from { opacity: 0.2; background-color: rgba(255, 255, 255, 1); }
   to { opacity: 1; background-color: rgba(255, 255, 255, 0); }
@@ -88,40 +85,32 @@ const fadeOut = keyframes`
 const SliderArea = styled.div`
   position: relative;
   height: 100vh;
-  background-size: contain;
+  width: 100vw;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #ffffff !important;
-
-  @media (max-width: 1200px) {
-    height: auto;
-  }
 `;
 
 const SliderItemActive = styled.div`
-  background-image: url(${props => props.mainImage});
+  background-image: url(${props => props.$mainImage});
   animation: ${props => (props.className === 'fade-in' ? fadeIn : fadeOut)} 0.5s forwards;
   height: 100%;
+  width: 100%;
 
   .slick-track {
     display: flex;
     align-items: center;
-  }
-
-  @media (max-width: 768px) {
-    height: auto;
-    background-size: cover;
-    background-position: center;
   }
 `;
 
 const SliderHeight = styled.div`
   background: none !important;
   height: 100vh;
-
-  @media (max-width: 1200px) {
-    height: auto;
-  }
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 const SlideContent = styled.div`
@@ -133,11 +122,7 @@ const SlideContent = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-
-  @media (max-width: 1200px) {
-    height: auto;
-  }
+  text-align: center;
 `;
 
 const Title = styled.h1`
@@ -145,15 +130,24 @@ const Title = styled.h1`
   color: #fff;
   margin: 0;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  font-family: 'Pro-text';
+  font-family: 'Sarlotte';
   font-weight: bold;
+  letter-spacing: 6px;
 
-  @media (max-width: 768px) {
-    font-size: 3rem;
+  @media (max-width: 1000px) {
+    font-size: 7rem;
   }
 
-  @media (max-width: 576px) {
-    font-size: 2rem;
+  @media (max-width: 700px) {
+    font-size: 5rem;
+  }
+
+  @media (max-width: 500px) {
+    font-size: 4rem;
+  }
+
+  @media (max-width: 350px) {
+    font-size: 3rem;
   }
 `;
 
@@ -161,14 +155,21 @@ const Caption = styled.p`
   font-size: 2rem;
   color: #fff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  margin-top: 20px;
-  font-family: 'Poppings-light';
+  font-family: 'Poppins-light';
 
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
+    font-size: 1.6rem;
+  }
+
+  @media (max-width: 700px) {
+    font-size: 1.2rem;
+  }
+
+  @media (max-width: 500px) {
     font-size: 1rem;
   }
 
-  @media (max-width: 576px) {
+  @media (max-width: 350px) {
     font-size: 0.8rem;
   }
 `;
@@ -192,17 +193,17 @@ const Thumbnail = styled.div`
   transition: transform 0.3s;
 
   img {
-    width: 120px;
-    height: 70px;
+    width: 100px;
+    height: 60px;
     object-fit: cover;
 
     @media (max-width: 768px) {
-      width: 80px;
+      width: 90px;
       height: 50px;
     }
 
     @media (max-width: 576px) {
-      width: 60px;
+      width: 80px;
       height: 40px;
     }
   }

@@ -81,21 +81,3 @@
   font-family: 'Sarlotte';
   src: url('../fonts/Sarlotte.otf') format('truetype');
 }
-
-@font-face {
-  font-family: 'SFCartoonistHand-Bold';
-  src: url('../fonts/SFCartoonistHand-Bold.ttf') format('truetype');
-}
-
-
-@font-face {
-  font-family: 'SFCartoonistHand';
-  src: url('../fonts/SFCartoonistHand.ttf') format('truetype');
-}
-
-
-@font-face {
-  font-family: 'WinstonScriptRegular-lgzYd';
-  src: url('../fonts/WinstonScriptRegular-lgzYd.ttf') format('truetype');
-}
-

@@ -2,44 +2,85 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 
 const Container = styled.div`
-  color: #000;  // Texto negro para modo claro
-  padding: 100px 60px;  // Increased padding
+  color: #000;
+  padding: 60px 20px;
   min-height: 100vh;
-  background-color: #f5f5f5;  // Fondo claro
+  background-color: #ffffff !important;
+
+  @media (max-width: 768px) {
+    padding: 40px 10px;
+  }
+
+  @media (max-width: 500px) {
+    padding: 30px 5px;
+  }
 `;
 
 const Title = styled.h1`
   text-align: left;
-  font-size: 5rem;  // Aumentar el tamaño de la fuente
-  margin-bottom: 70px;
-  margin-top: 5%; 
-  color: #333;  // Color del título en modo claro
+  font-size: 4rem;
+  margin-bottom: 40px;
+  color: #333;
+  margin-left: 5%;
+  font-family: Pro-text;
+  font-weight: bold;
+
+  span { 
+    color: #f28123;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+
+  @media (max-width: 500px) {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
 `;
 
 const FaqContainer = styled.div`
   display: flex;
   justify-content: center;
-  gap: 40px;  // Increased gap between columns
+  flex-wrap: wrap;
+  gap: 20px;
+
+  @media (max-width: 768px) {
+    gap: 10px;
+  }
 `;
 
 const Column = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 30px;  // Increased gap between FAQ items
+  gap: 20px;
   width: 100%;
+
+  @media (min-width: 769px) {
+    width: 45%;
+  }
+
+  @media (max-width: 768px) {
+    gap: 10px;
+  }
 `;
 
 const FaqItem = styled.div`
-  background-color: #fff;  // Fondo blanco para las FAQ
-  border: 1px solid #ccc;  // Borde gris claro
-  padding: 30px;  // Aumentar padding
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
   border-radius: 8px;
   transition: background-color 0.3s ease;
   cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  // Añadir sombra para destacar
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
   &:hover {
-    background-color: #f0f0f0;  // Fondo gris claro al hacer hover
+    background-color: #f0f0f0;
+  }
+
+  @media (max-width: 500px) {
+    padding: 15px;
   }
 `;
 
@@ -47,22 +88,42 @@ const Question = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 1.8rem;  // Aumentar tamaño de la fuente de las preguntas
+  font-size: 1.5rem;
+
+  @media (max-width: 768px) {
+    font-size: 1.4rem;
+  }
+
+  @media (max-width: 500px) {
+    font-size: 1.2rem;
+  }
 `;
 
 const Answer = styled.div`
   margin-top: 10px;
-  font-size: 1.4rem;  // Aumentar tamaño de la fuente de las respuestas
+  font-size: 1.2rem;
   line-height: 1.5;
-  display: ${props => (props.show ? 'block' : 'none')};
+  display: ${props => (props.$show ? 'block' : 'none')};
   font-weight: lighter;
-  color: #555;  // Color de las respuestas en modo claro
+  color: #555;
+
+  @media (max-width: 768px) {
+    font-size: 1.1rem;
+  }
+
+  @media (max-width: 500px) {
+    font-size: 1rem;
+  }
 `;
 
 const Icon = styled.span`
-  font-size: 1.8rem;  // Aumentar tamaño del icono
+  font-size: 1.5rem;
   transition: transform 0.3s ease;
-  transform: ${props => (props.show ? 'rotate(180deg)' : 'rotate(0deg)')};
+  transform: ${props => (props.$show ? 'rotate(180deg)' : 'rotate(0deg)')};
+
+  @media (max-width: 500px) {
+    font-size: 1.2rem;
+  }
 `;
 
 const faqs = [
@@ -112,16 +173,16 @@ const FAQ = () => {
 
   return (
     <Container>
-      <Title>Frequently Asked Questions</Title>
+      <Title>Frequently Asked <span>Questions</span></Title>
       <FaqContainer>
         <Column>
           {leftColumnFaqs.map((faq, index) => (
             <FaqItem key={index} onClick={() => handleToggle(index)}>
               <Question>
                 {faq.question}
-                <Icon show={activeIndex === index}>&#9660;</Icon>
+                <Icon $show={activeIndex === index}>&#9660;</Icon>
               </Question>
-              <Answer show={activeIndex === index}>{faq.answer}</Answer>
+              <Answer $show={activeIndex === index}>{faq.answer}</Answer>
             </FaqItem>
           ))}
         </Column>
@@ -130,9 +191,9 @@ const FAQ = () => {
             <FaqItem key={index + 4} onClick={() => handleToggle(index + 4)}>
               <Question>
                 {faq.question}
-                <Icon show={activeIndex === index + 4}>&#9660;</Icon>
+                <Icon $show={activeIndex === index + 4}>&#9660;</Icon>
               </Question>
-              <Answer show={activeIndex === index + 4}>{faq.answer}</Answer>
+              <Answer $show={activeIndex === index + 4}>{faq.answer}</Answer>
             </FaqItem>
           ))}
         </Column>

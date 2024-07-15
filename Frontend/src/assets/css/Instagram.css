@@ -64,33 +64,6 @@ span {
     color: #f28123 !important;
 }
 
-@media (max-width: 750px) {
-    .section-title {
-        font-size: 3rem;
-    }
-   
-}
-
-@media (max-width: 600px) {
-    .section-title {
-        font-size: 2.5rem;
-    }
-   
-}
-
-@media (max-width: 400px) {
-    .section-title {
-        font-size: 2rem;
-    }
-   
-}
-
-@media (max-width: 300px) {
-    .section-title {
-        font-size: 1.5rem;
-    }
-    
-}
 
 /* Ajuste de imágenes para pantallas pequeñas */
 @media (max-width: 770px) {
@@ -98,3 +71,33 @@ span {
         width: 33.333%;
     }
 }
+
+@media (max-width: 750px) {
+    .section-title3 {
+        font-size: 3rem;
+    }
+   
+}
+
+@media (max-width: 600px) {
+    .section-title3 {
+        font-size: 2.5rem;
+    }
+   
+}
+
+@media (max-width: 400px) {
+    .section-title3 {
+        font-size: 2rem;
+    }
+   
+}
+
+@media (max-width: 321px) {
+    .section-title3 {
+        font-size: 1.5rem;
+        margin-bottom: 5%;
+    }
+    
+}
+

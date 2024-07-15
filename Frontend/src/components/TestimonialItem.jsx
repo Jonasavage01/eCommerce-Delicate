@@ -21,7 +21,7 @@ const GradientContainer = styled(MDBContainer)`
   position: relative;
   height: 90vh;
   padding: 1rem;
-  
+
   &::before {
     content: "";
     position: absolute;
@@ -80,7 +80,7 @@ const TestimonialTitle = styled.h1`
   font-weight: bold;
   color: #ffffff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-  font-family: Pro-text;
+  font-family: 'Pro-text', sans-serif;
 
   @media (max-width: 1100px) {
     font-size: 2.5rem;
@@ -109,7 +109,7 @@ const TestimonialTitle = styled.h1`
 
 const TestimonialText = styled.p`
   font-size: 1.2rem;
-  font-family: Poppings-light;
+  font-family: 'Poppings-light', sans-serif;
   text-align: left;
 
   @media (max-width: 1100px) {

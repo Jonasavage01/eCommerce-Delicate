@@ -7,33 +7,22 @@ const Services = () => {
     return (
         <div className="container my-5 services-container">
             <div className="text-center mb-4">
-                <h2 className="services-title">Our Services</h2>
+                <h2 className="services-title">Our <span>Services</span></h2>
             </div>
             <div className="row">
-                <div className="col-md-3 col-sm-6 mb-4">
-                    <div className="service-card text-center p-4">
-                        <i className="fas fa-truck fa-4x mb-3"></i>
-                        <h5>Delivery Services</h5>
+                {[
+                    { icon: 'fas fa-truck', title: 'Delivery Services' },
+                    { icon: 'fas fa-exchange-alt', title: 'Shipping & Return' },
+                    { icon: 'fas fa-percent', title: 'Promotion' },
+                    { icon: 'fas fa-user-clock', title: '24 Hours Service' }
+                ].map((service, index) => (
+                    <div className="col-md-3 col-sm-6 mb-4" key={index}>
+                        <div className="service-card text-center p-4">
+                            <i className={`${service.icon} fa-4x mb-3`}></i>
+                            <h5>{service.title}</h5>
+                        </div>
                     </div>
-                </div>
-                <div className="col-md-3 col-sm-6 mb-4">
-                    <div className="service-card text-center p-4">
-                        <i className="fas fa-exchange-alt fa-4x mb-3"></i>
-                        <h5>Shipping & Return</h5>
-                    </div>
-                </div>
-                <div className="col-md-3 col-sm-6 mb-4">
-                    <div className="service-card text-center p-4">
-                        <i className="fas fa-percent fa-4x mb-3"></i>
-                        <h5>Promotion</h5>
-                    </div>
-                </div>
-                <div className="col-md-3 col-sm-6 mb-4">
-                    <div className="service-card text-center p-4">
-                        <i className="fas fa-user-clock fa-4x mb-3"></i>
-                        <h5>24 Hours Service</h5>
-                    </div>
-                </div>
+                ))}
             </div>
         </div>
     );
