@@ -1,24 +1,24 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../assets/css/OrderConfirmation.css'; // Agregar el archivo CSS personalizado
-import { useLocation } from 'react-router-dom';
+import '../assets/css/OrderConfirmation.css';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
 const OrderConfirmation = () => {
   const location = useLocation();
+  const navigate = useNavigate();
   const { orderDetails } = location.state || {};
   const { name, address, email, phone, paymentMethod, items, total } = orderDetails;
 
-  
   const handleConfirmOrder = () => {
     navigate('/thank-you', { state: { orderDetails } });
   };
 
   return (
     <div className="container confirm-order-container my-3">
-      <div className="row">
-        <div className="col-lg-8 col-md-10 mx-auto">
-          <div className="card13 p-5">
+      <div className="row justify-content-center">
+        <div className="col-lg-8 col-md-10">
+          <div className="card p-5">
             <h3 className="mb-4">Shipping Information</h3>
             <p><strong>Name:</strong> {name}</p>
             <p><strong>Address:</strong> {address}</p>
@@ -49,9 +49,9 @@ const OrderConfirmation = () => {
             </div>
 
             <div className="d-flex justify-content-between mt-4">
-              <button className="btn btn-primary btn-block">Confirm Order</button>
-               <Link to="/ThankYouPage">
-              <button className="btn btn-secondary btn-block cancel-button">Cancel Order</button>
+              <button className="btn btn-primary btn-block" onClick={handleConfirmOrder}>Confirm Order</button>
+              <Link to="/thank-you">
+                <button className="btn btn-secondary btn-block cancel-button">Cancel Order</button>
               </Link>
             </div>
           </div>

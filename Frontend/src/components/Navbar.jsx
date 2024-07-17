@@ -38,7 +38,8 @@ const Navbar = () => {
         '/UserPage',
         '/OrderHistoryPage',
         '/orderdetails/', 
-        '/settings'
+        '/settings',
+        '/OrderConfirmation'
     ];
     const isPageWithBlackBg = pagesWithBlackBg.some((page) => location.pathname.startsWith(page));
 

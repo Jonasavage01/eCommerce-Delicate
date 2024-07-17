@@ -1,7 +1,41 @@
+
+// OrderHistory.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../assets/css/User.css';
+import styled from 'styled-components';
+
+const HistoryContainer = styled.div`
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 1rem;
+  width: 100%;
+
+  @media (max-width: 600px) {
+    padding: 0.5rem;
+  }
+`;
+
+const Table = styled.table`
+  width: 100%;
+  margin-bottom: 1rem;
+  border-collapse: collapse;
+
+  th, td {
+    padding: 0.75rem;
+    text-align: left;
+    border: 1px solid #dee2e6;
+  }
+
+  a {
+    color: #007bff;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+`;
 
 const OrderHistory = () => {
   const orders = [
@@ -14,9 +48,9 @@ const OrderHistory = () => {
   ];
 
   return (
-    <div className="history-container p-3">
+    <HistoryContainer>
       <h5>Recent Order History</h5>
-      <table className="table table-bordered">
+      <Table>
         <thead>
           <tr>
             <th>ORDER ID</th>
@@ -35,9 +69,9 @@ const OrderHistory = () => {
             </tr>
           ))}
         </tbody>
-      </table>
+      </Table>
       <a href="#">View All</a>
-    </div>
+    </HistoryContainer>
   );
 };
 
