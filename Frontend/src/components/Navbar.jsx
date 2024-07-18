@@ -39,11 +39,13 @@ const Navbar = () => {
         '/OrderHistoryPage',
         '/orderdetails/', 
         '/settings',
-        '/OrderConfirmation'
+        '/OrderConfirmation',
+        '/Register',
+        '/login'
     ];
     const isPageWithBlackBg = pagesWithBlackBg.some((page) => location.pathname.startsWith(page));
 
-    if (location.pathname === '/Checkout') {
+    if (location.pathname === '/Checkout', '/Register' , '/login') {
         return null;
     }
 

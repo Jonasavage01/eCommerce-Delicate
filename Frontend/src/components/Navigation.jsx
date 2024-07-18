@@ -1,6 +1,7 @@
-// Navigation.js
-import React from 'react';
+// src/components/Navigation.js
+import React, { useContext } from 'react';
 import styled from 'styled-components';
+import { AuthContext } from '../context/AuthContext';
 
 const NavigationContainer = styled.div`
   background-color: #fff;
@@ -31,6 +32,8 @@ const NavLink = styled.a`
 `;
 
 const Navigation = () => {
+  const { isAuthenticated, logout } = useContext(AuthContext);
+
   return (
     <NavigationContainer>
       <ul className="list-unstyled">
@@ -55,9 +58,15 @@ const Navigation = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink href="#">
-            <i className="fas fa-sign-out-alt"></i> Log-out
-          </NavLink>
+          {isAuthenticated ? (
+            <NavLink href="#" onClick={logout}>
+              <i className="fas fa-sign-out-alt"></i> Log out
+            </NavLink>
+          ) : (
+            <NavLink href="/login">
+              <i className="fas fa-sign-in-alt"></i> Login
+            </NavLink>
+          )}
         </li>
       </ul>
     </NavigationContainer>
