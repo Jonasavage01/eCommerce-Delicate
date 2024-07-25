@@ -13,6 +13,52 @@ a {
     background-color: black !important;
 }
 
+.navbar, .dropdown-menu {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .user-icon {
+    position: relative;
+  }
+  
+/* Estilos del menú desplegable personalizado */
+.custom-dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    min-width: 200px;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    z-index: 1000;
+  }
+  
+  .custom-dropdown .dropdown-item {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    color: #333;
+    background-color: #fff; /* Asegurarse de que el fondo sea blanco */
+    border: none; /* Elimina cualquier borde predeterminado */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .custom-dropdown .dropdown-item i {
+    margin-right: 8px;
+  }
+  
+  .custom-dropdown .dropdown-item:hover {
+    background-color: #f1964c;
+    color: #fff;
+  }
+  
+  .custom-dropdown .dropdown-item:focus,
+  .custom-dropdown .dropdown-item:active {
+    background-color: #fff;
+    color: #333;
+  }
+
+
 /* Navbar Styles */
 
 .nav-link.active {
@@ -54,7 +100,7 @@ a {
     font-size: 1.5rem;
     margin-right: 40px;
     margin-left: 20px;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+   
     font-family: Poppings-semibold;
 }
 
@@ -70,7 +116,7 @@ a {
     margin-left: 10px;
     font-size: 2.2rem;
     color: #fff;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    
     display: flex;
     align-items: center;
     margin-top: -2px;

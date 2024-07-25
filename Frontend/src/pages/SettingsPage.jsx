@@ -1,14 +1,13 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../assets/css/User.css';
-import Navigation from '../components/Navigation';
 
 const SettingsPage = () => {
   return (
     <div className="user-page-container p-4">
       <div className="row">
         <div className="col-lg-3">
-          <Navigation />
+          {/* Aquí se pueden agregar otros elementos de navegación si es necesario */}
         </div>
         <div className="col-lg-9">
           <div className="settings-container">

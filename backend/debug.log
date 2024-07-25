@@ -1,0 +1,631 @@
+2024-07-24 15:38:00 [5956] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 15:38:28 [2840] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 15:38:53 [2840] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-24 15:38:54 [1472] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 15:39:27 [14148] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 15:40:09 [14148] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-24 15:40:11 [6748] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 15:40:45 [6748] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\views.py changed, reloading.
+2024-07-24 15:40:46 [11752] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 15:41:20 [11752] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\urls.py changed, reloading.
+2024-07-24 15:41:21 [13380] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 15:41:40 [13380] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-24 15:41:41 [7416] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 16:01:39 [14148] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 16:05:24 [14148] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-24 16:05:25 [3376] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 16:05:27 [3376] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-24 16:05:28 [9016] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 16:05:31 [9016] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-24 16:05:32 [9460] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 16:08:43 [6192] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 16:14:30 [6192] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-24 16:14:31 [8560] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 16:14:46 [8560] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-24 16:14:47 [9320] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 16:16:20 [9320] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-24 16:16:21 [6188] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 16:17:14 [6188] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-24 16:17:15 [7904] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 16:17:17 [7904] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-24 16:17:18 [9784] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 16:17:33 [9784] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-24 16:17:34 [8716] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 16:18:06 [8716] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-24 16:18:17 [3772] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 16:18:48 [3772] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-24 16:18:50 [2504] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 16:20:37 [2504] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\urls.py changed, reloading.
+2024-07-24 16:20:38 [4776] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 16:20:41 [4776] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\urls.py changed, reloading.
+2024-07-24 16:20:42 [9024] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 22:44:59 [14676] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 22:49:41 [14676] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-24 22:50:18 [15992] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 22:52:07 [15992] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\serializers.py changed, reloading.
+2024-07-24 22:52:08 [13104] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 22:52:45 [13104] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\views.py changed, reloading.
+2024-07-24 22:52:46 [10328] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 22:53:13 [10328] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\views.py changed, reloading.
+2024-07-24 22:53:14 [13712] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 23:02:03 [13712] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\serializers.py changed, reloading.
+2024-07-24 23:02:04 [16072] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 23:02:28 [16072] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\models.py changed, reloading.
+2024-07-24 23:02:29 [11320] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 23:02:42 [11320] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\views.py changed, reloading.
+2024-07-24 23:02:43 [16232] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 23:02:59 [16232] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\views.py changed, reloading.
+2024-07-24 23:03:00 [16348] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 23:03:26 [16348] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\validators.py changed, reloading.
+2024-07-24 23:03:27 [720] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 23:04:09 [6832] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 23:04:18 [6832] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\models.py changed, reloading.
+2024-07-24 23:04:19 [14836] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 23:04:28 [14836] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\views.py changed, reloading.
+2024-07-24 23:04:29 [9440] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 23:04:40 [9440] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\validators.py changed, reloading.
+2024-07-24 23:04:41 [1444] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 23:04:44 [1444] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\validators.py changed, reloading.
+2024-07-24 23:04:45 [15652] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 23:04:48 [15652] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-24 23:04:50 [16332] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 23:05:13 [16332] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\serializers.py changed, reloading.
+2024-07-24 23:05:14 [10524] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 23:05:18 [10524] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-24 23:05:19 [13688] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 23:05:22 [13688] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\models.py changed, reloading.
+2024-07-24 23:05:23 [708] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 23:05:26 [708] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\validators.py changed, reloading.
+2024-07-24 23:05:27 [11712] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 23:15:10 [11712] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-24 23:15:11 [10768] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 23:15:15 [10768] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-24 23:15:16 [3540] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 23:15:36 [3540] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-24 23:15:37 [14020] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 23:15:40 [14020] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-24 23:15:41 [984] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 23:16:34 [984] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-24 23:16:35 [10804] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 23:23:57 [10804] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-24 23:23:58 [8532] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 23:24:56 [8532] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-24 23:24:57 [15972] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 23:25:04 [15972] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-24 23:25:05 [11420] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 23:25:38 [11420] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-24 23:25:39 [7808] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 23:26:04 [7808] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-24 23:26:05 [11576] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 23:26:34 [11576] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-24 23:26:35 [10552] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 23:27:41 [10552] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\serializers.py changed, reloading.
+2024-07-24 23:27:42 [10832] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 23:27:57 [10832] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\middleware.py changed, reloading.
+2024-07-24 23:27:58 [4960] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 23:28:52 [4960] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\serializers.py changed, reloading.
+2024-07-24 23:28:53 [3900] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 23:29:11 [3900] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\serializers.py changed, reloading.
+2024-07-24 23:29:12 [4016] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 23:35:25 [4016] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\urls.py changed, reloading.
+2024-07-24 23:35:26 [10900] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 23:36:49 [7816] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-24 23:45:34 [16084] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 00:10:55 [16084] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 00:10:56 [18352] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 11:43:19 [8692] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 11:48:06 [14352] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 11:48:11 [14352] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 11:48:12 [16564] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 12:02:48 [10664] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 12:11:28 [9624] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Not Found: /
+2024-07-25 12:11:28 [9624] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Not Found: /favicon.ico
+2024-07-25 12:59:03 [8112] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 12:59:31 [8112] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 12:59:32 [7128] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 13:01:44 [7128] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 13:01:45 [13560] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 13:02:03 [13560] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Not Found: /api/token/
+2024-07-25 13:02:10 [13560] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Not Found: /api/token/
+2024-07-25 13:04:11 [13560] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Not Found: /api/token/
+2024-07-25 13:05:20 [13560] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Not Found: /api/register/
+2024-07-25 13:12:24 [13560] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\urls.py changed, reloading.
+2024-07-25 13:12:25 [11952] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 13:12:40 [11952] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\urls.py changed, reloading.
+2024-07-25 13:12:41 [14884] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 13:17:51 [14884] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\urls.py changed, reloading.
+2024-07-25 13:17:52 [7804] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 13:18:17 [17068] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 13:18:48 [17068] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\urls.py changed, reloading.
+2024-07-25 13:18:49 [12212] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 13:18:55 [12212] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\urls.py changed, reloading.
+2024-07-25 13:18:56 [16000] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 13:20:32 [3884] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 14:00:42 [3884] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\urls.py changed, reloading.
+2024-07-25 14:00:43 [13720] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 14:01:24 [13720] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\urls.py changed, reloading.
+2024-07-25 14:01:25 [2324] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 14:01:36 [2324] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\urls.py changed, reloading.
+2024-07-25 14:01:37 [9876] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 14:01:39 [9876] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\urls.py changed, reloading.
+2024-07-25 14:01:40 [14088] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 14:01:45 [14088] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 14:01:46 [16032] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 14:02:00 [16032] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Not Found: /api/token/
+2024-07-25 14:04:51 [16032] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Not Found: /api/token/
+2024-07-25 14:06:51 [16032] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\urls.py changed, reloading.
+2024-07-25 14:06:53 [15972] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 14:07:01 [15972] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\urls.py changed, reloading.
+2024-07-25 14:07:02 [4816] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 14:07:13 [4816] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\urls.py changed, reloading.
+2024-07-25 14:07:14 [13680] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 14:07:48 [13680] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\urls.py changed, reloading.
+2024-07-25 14:07:48 [1820] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 14:08:04 [1820] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\urls.py changed, reloading.
+2024-07-25 14:08:05 [12976] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 14:08:57 [1224] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 14:09:55 [1224] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/register/
+2024-07-25 14:16:21 [1224] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\middleware.py changed, reloading.
+2024-07-25 14:16:22 [18140] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 14:18:40 [18140] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\middleware.py changed, reloading.
+2024-07-25 14:18:41 [15524] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 14:18:43 [15524] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\urls.py changed, reloading.
+2024-07-25 14:18:44 [17188] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 14:19:16 [17188] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/register/
+2024-07-25 14:22:09 [17188] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/register/
+2024-07-25 14:25:11 [17188] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\validators.py changed, reloading.
+2024-07-25 14:25:12 [15888] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 14:27:06 [15888] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\serializers.py changed, reloading.
+2024-07-25 14:27:07 [10992] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 14:27:09 [10992] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\views.py changed, reloading.
+2024-07-25 14:27:10 [2332] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 14:27:56 [2332] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\urls.py changed, reloading.
+2024-07-25 14:27:57 [6812] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 14:28:01 [6812] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\validators.py changed, reloading.
+2024-07-25 14:28:02 [8880] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 14:28:16 [8880] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/register/
+2024-07-25 14:28:48 [8880] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/register/
+2024-07-25 15:30:36 [8880] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/register/
+2024-07-25 15:30:42 [8880] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/register/
+2024-07-25 15:32:16 [8880] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\validators.py changed, reloading.
+2024-07-25 15:32:17 [2996] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 15:32:21 [2996] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\validators.py changed, reloading.
+2024-07-25 15:32:22 [16768] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 15:33:12 [16768] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\serializers.py changed, reloading.
+2024-07-25 15:33:13 [2872] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 15:33:47 [2872] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/register/
+2024-07-25 15:34:02 [2872] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/register/
+2024-07-25 15:39:17 [2872] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\views.py changed, reloading.
+2024-07-25 15:39:18 [15948] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 15:39:20 [15948] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\views.py changed, reloading.
+2024-07-25 15:39:21 [13692] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 15:40:30 [13692] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/register/
+2024-07-25 15:44:22 [13692] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/register/
+2024-07-25 15:47:07 [13692] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\views.py changed, reloading.
+2024-07-25 15:47:08 [7580] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 15:47:10 [7580] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\views.py changed, reloading.
+2024-07-25 15:47:12 [1624] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 15:47:13 [1624] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\serializers.py changed, reloading.
+2024-07-25 15:47:15 [17660] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 15:47:18 [17660] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\urls.py changed, reloading.
+2024-07-25 15:47:19 [7196] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 15:47:21 [7196] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\urls.py changed, reloading.
+2024-07-25 15:47:22 [8716] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 15:48:07 [8716] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\validators.py changed, reloading.
+2024-07-25 15:48:08 [13424] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 15:48:20 [13424] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/register/
+2024-07-25 15:48:38 [13424] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/register/
+2024-07-25 15:51:29 [13424] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/register/
+2024-07-25 15:52:00 [13424] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/token/
+2024-07-25 15:52:29 [13424] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/token/
+2024-07-25 15:54:34 [13424] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\serializers.py changed, reloading.
+2024-07-25 15:54:35 [15436] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 15:55:01 [15436] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/token/
+2024-07-25 15:55:19 [15436] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/token/
+2024-07-25 15:55:31 [15436] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/token/
+2024-07-25 16:02:48 [15436] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\middleware.py changed, reloading.
+2024-07-25 16:02:49 [6996] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 16:03:40 [6996] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\serializers.py changed, reloading.
+2024-07-25 16:03:41 [6068] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 16:09:19 [6068] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 16:27:27 [14028] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 16:28:21 [14028] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 16:28:22 [15248] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 16:28:27 [15248] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\serializers.py changed, reloading.
+2024-07-25 16:28:28 [3040] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 16:28:29 [3040] [ERROR] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py lineno=124 funcname=response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2024-07-25 16:28:30 [3040] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/profile/
+2024-07-25 16:28:30 [3040] [ERROR] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py lineno=124 funcname=response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2024-07-25 16:28:30 [3040] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/profile/
+2024-07-25 16:28:33 [3040] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\validators.py changed, reloading.
+2024-07-25 16:28:34 [7244] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 16:28:34 [7244] [ERROR] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py lineno=124 funcname=response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2024-07-25 16:28:34 [7244] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/profile/
+2024-07-25 16:30:26 [7244] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\middleware.py changed, reloading.
+2024-07-25 16:30:27 [6496] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 16:30:45 [6496] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 16:30:46 [7484] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 16:30:54 [7484] [ERROR] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py lineno=124 funcname=response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2024-07-25 16:30:54 [7484] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/profile/
+2024-07-25 16:30:54 [7484] [ERROR] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py lineno=124 funcname=response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2024-07-25 16:30:54 [7484] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/profile/
+2024-07-25 16:30:57 [7484] [ERROR] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py lineno=124 funcname=response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2024-07-25 16:30:57 [7484] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/profile/
+2024-07-25 16:30:57 [7484] [ERROR] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py lineno=124 funcname=response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2024-07-25 16:30:57 [7484] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/profile/
+2024-07-25 16:31:09 [7484] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 16:31:09 [15212] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 16:31:12 [15212] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Unauthorized: /api/profile/
+2024-07-25 16:31:12 [15212] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Unauthorized: /api/profile/
+2024-07-25 16:31:24 [15212] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 16:31:25 [13848] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 16:32:14 [13848] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 16:32:15 [6468] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 16:32:30 [6468] [ERROR] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py lineno=124 funcname=response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2024-07-25 16:32:30 [6468] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/token/
+2024-07-25 16:33:39 [6468] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 16:36:19 [5712] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 16:36:39 [5712] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 16:36:40 [13968] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 16:36:52 [13968] [ERROR] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py lineno=124 funcname=response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2024-07-25 16:36:52 [13968] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/token/
+2024-07-25 16:37:06 [13968] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 16:37:07 [10684] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 16:37:14 [10684] [ERROR] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py lineno=124 funcname=response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2024-07-25 16:37:14 [10684] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/token/
+2024-07-25 16:38:04 [10684] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 16:38:05 [14928] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 16:38:08 [14928] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 16:38:09 [4024] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 16:38:18 [4024] [ERROR] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py lineno=124 funcname=response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2024-07-25 16:38:18 [4024] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/token/
+2024-07-25 16:39:00 [4024] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 16:39:26 [13964] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 16:39:30 [13964] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 16:39:31 [16392] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 16:39:51 [16392] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 16:39:52 [1804] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 16:40:24 [1804] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 16:40:24 [1164] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 16:40:39 [1164] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 16:40:40 [14268] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 16:41:05 [14268] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 16:41:06 [10320] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 16:41:16 [10320] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\middleware.py changed, reloading.
+2024-07-25 16:41:17 [17948] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 16:41:25 [17948] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 16:41:26 [16868] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 16:41:41 [16868] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\serializers.py changed, reloading.
+2024-07-25 16:41:42 [15856] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 16:49:42 [15856] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\views.py changed, reloading.
+2024-07-25 16:49:43 [7876] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 16:49:58 [7876] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\views.py changed, reloading.
+2024-07-25 16:50:00 [17284] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 16:51:55 [17284] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\middleware.py changed, reloading.
+2024-07-25 16:51:55 [13144] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 16:52:37 [13144] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\serializers.py changed, reloading.
+2024-07-25 16:52:38 [8620] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 16:53:02 [8620] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\serializers.py changed, reloading.
+2024-07-25 16:53:03 [14084] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 16:55:17 [14084] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\middleware.py changed, reloading.
+2024-07-25 16:55:18 [17232] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 16:56:54 [17232] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\views.py changed, reloading.
+2024-07-25 16:56:55 [8872] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 16:56:57 [8872] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\serializers.py changed, reloading.
+2024-07-25 16:56:58 [12924] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 17:02:15 [12924] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 17:02:16 [8564] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 17:02:42 [8564] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 17:02:43 [16576] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 17:02:55 [16576] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 17:02:56 [8176] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 17:10:32 [16136] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 17:11:14 [16136] [ERROR] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py lineno=124 funcname=response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2024-07-25 17:11:14 [16136] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/token/
+2024-07-25 17:11:42 [2272] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 17:11:51 [2272] [ERROR] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py lineno=124 funcname=response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2024-07-25 17:11:51 [2272] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/token/
+2024-07-25 17:13:49 [2272] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 17:15:53 [13484] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 17:16:10 [13484] [ERROR] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py lineno=124 funcname=response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2024-07-25 17:16:10 [13484] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/profile/
+2024-07-25 17:16:10 [13484] [ERROR] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py lineno=124 funcname=response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2024-07-25 17:16:10 [13484] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/profile/
+2024-07-25 17:16:13 [13484] [ERROR] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py lineno=124 funcname=response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2024-07-25 17:16:13 [13484] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/profile/
+2024-07-25 17:16:13 [13484] [ERROR] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py lineno=124 funcname=response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2024-07-25 17:16:13 [13484] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/profile/
+2024-07-25 17:17:44 [13484] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 17:17:44 [16080] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 17:17:46 [16080] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 17:17:47 [1628] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 17:18:00 [1628] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 17:18:01 [7660] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 17:18:06 [7660] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Unauthorized: /api/profile/
+2024-07-25 17:18:06 [7660] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Unauthorized: /api/profile/
+2024-07-25 17:18:55 [7660] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 17:18:56 [13484] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 17:18:58 [13484] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\serializers.py changed, reloading.
+2024-07-25 17:18:59 [9436] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 17:20:00 [9436] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 17:20:01 [6356] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 17:20:22 [6356] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 17:20:22 [5192] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 17:20:38 [5192] [ERROR] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py lineno=124 funcname=response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2024-07-25 17:20:38 [5192] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/token/
+2024-07-25 17:20:52 [5192] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 17:20:53 [18192] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 17:21:01 [18192] [ERROR] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py lineno=124 funcname=response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2024-07-25 17:21:01 [18192] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/token/
+2024-07-25 17:21:23 [18192] [ERROR] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py lineno=124 funcname=response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2024-07-25 17:21:23 [18192] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/token/
+2024-07-25 17:21:44 [18192] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 17:21:45 [7380] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 17:23:28 [8576] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 17:24:01 [8576] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/token/
+2024-07-25 17:24:23 [8576] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/register/
+2024-07-25 17:24:44 [8576] [WARNING] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\log.py lineno=241 funcname=log_response Bad Request: /api/register/
+2024-07-25 17:25:04 [8576] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\backend\settings.py changed, reloading.
+2024-07-25 17:25:05 [15708] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader
+2024-07-25 17:25:09 [15708] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=266 funcname=trigger_reload C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\backend\accounts\views.py changed, reloading.
+2024-07-25 17:25:09 [16280] [INFO] pathname=C:\Users\hachi\OneDrive\Documentos\GitHub\eCommerce-Delicate\env\Lib\site-packages\django\utils\autoreload.py lineno=668 funcname=run_with_reloader Watching for file changes with StatReloader

@@ -5,11 +5,12 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const HistoryContainer = styled.div`
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  padding: 1rem;
+  padding: 5rem;
   width: 100%;
+  padding-top: 10rem;
 
   @media (max-width: 600px) {
     padding: 0.5rem;

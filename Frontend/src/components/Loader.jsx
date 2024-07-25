@@ -1,14 +1,16 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import styled, { keyframes } from 'styled-components';
 
-const spin = keyframes`
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-`;
-
+// Keyframes for the animations
 const bounce = keyframes`
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-15px); }
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(0.5);
+    opacity: 0.7;
+  }
 `;
 
 const LoaderWrapper = styled.div`
@@ -16,55 +18,42 @@ const LoaderWrapper = styled.div`
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #fff;
+  background-color: #000; // Fondo negro
 `;
 
-const SoapIcon = styled.div`
-  width: 80px;
-  height: 80px;
+const Circle = styled.div`
+  width: 30px; // Aumentar tamaño
+  height: 30px; // Aumentar tamaño
+  margin: 6px;
   border-radius: 50%;
-  background: #f28123;
-  position: relative;
-  animation: ${spin} 2s linear infinite;
-
-  &:before, &:after {
-    content: '';
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background: #f28123;
-  }
-
-  &:before {
-    top: -20px;
-    left: 50%;
-    transform: translateX(-50%);
-    animation: ${bounce} 1s infinite ease-in-out;
-  }
-
-  &:after {
-    bottom: -20px;
-    left: 50%;
-    transform: translateX(-50%);
-    animation: ${bounce} 1s infinite ease-in-out 0.5s;
-  }
+  background-color: ${props => props.color};
+  animation: ${bounce} 0.6s infinite alternate;
+  animation-delay: ${props => props.delay};
 `;
 
-const LoadingText = styled.p`
-  font-family: 'Poppings-regular';
-  color: #000;
-  margin-top: 20px;
-  font-size: 1.5rem;
-`;
+const Loader = ({ minLoadTime = 3000 }) => {
+  const [loading, setLoading] = useState(true);
 
-const Loader = () => (
-  <LoaderWrapper>
-    <div>
-      <SoapIcon />
-      <LoadingText>Loading...</LoadingText>
-    </div>
-  </LoaderWrapper>
-);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, minLoadTime);
+
+    return () => clearTimeout(timer);
+  }, [minLoadTime]);
+
+  if (!loading) {
+    return null;
+  }
+
+  return (
+    <LoaderWrapper>
+      <Circle color="#fff" delay="0s" /> {/* Cambiar color de los puntos */}
+      <Circle color="#cd8532" delay="0.1s" />
+      <Circle color="#fff" delay="0.2s" />
+      <Circle color="#cd8532" delay="0.3s" />
+    </LoaderWrapper>
+  );
+};
 
 export default Loader;

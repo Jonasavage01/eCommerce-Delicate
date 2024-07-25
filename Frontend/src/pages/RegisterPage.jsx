@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import axiosInstance from '../axiosInstance';
+import { useNavigate } from 'react-router-dom';
+import axios from 'axios';
 import '../assets/css/RegisterPage.css';
 import RegisterImage from '../assets/images/RegisterLogin/register.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -11,21 +12,38 @@ const RegisterPage = () => {
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
   const [error, setError] = useState('');
+  const navigate = useNavigate();
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    setError('');
+
     if (!email || !password || !confirmPassword) {
       setError('All fields are required');
       return;
     }
+
     if (password !== confirmPassword) {
       setError('Passwords do not match');
       return;
     }
-    axiosInstance.post('register/', {
-      email: email,
-      password: password
-    }).catch(() => setError('An error occurred, please try again later.'));
+
+    try {
+      const response = await axios.post('http://127.0.0.1:8000/api/register/', {
+        email: email,
+        password: password,
+      });
+      navigate('/login');
+    } catch (error) {
+      console.error('Register error:', error);
+
+      if (error.response && error.response.data) {
+        const errorData = error.response.data;
+        setError(errorData.error || 'An error occurred. Please try again later.');
+      } else {
+        setError('An error occurred. Please try again later.');
+      }
+    }
   };
 
   return (
@@ -44,6 +62,7 @@ const RegisterPage = () => {
                     placeholder="Email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
+                    required
                   />
                 </div>
                 <div className="mb-4 input-group">
@@ -54,6 +73,7 @@ const RegisterPage = () => {
                     placeholder="Password"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
+                    required
                   />
                 </div>
                 <div className="mb-4 input-group">
@@ -64,6 +84,7 @@ const RegisterPage = () => {
                     placeholder="Confirm Password"
                     value={confirmPassword}
                     onChange={(e) => setConfirmPassword(e.target.value)}
+                    required
                   />
                 </div>
                 {error && <p className="text-danger">{error}</p>}
@@ -78,11 +99,11 @@ const RegisterPage = () => {
                   <FontAwesomeIcon icon={faFacebook} /> Register with Facebook
                 </button>
               </div>
-              <a href="/login" className="text-decoration-none mt-4 d-block text-center">I am already a member</a>
             </div>
           </div>
-          <div className="col-md-6 d-none d-md-block">
+          <div className="col-md-6 d-none d-md-block position-relative">
             <img src={RegisterImage} alt="Register" className="img-fluid rounded-end" />
+            <a href="/login" className="text-decoration-none mt-4 d-block text-center position-absolute bottom-0 mb-4 w-100">I am already a member</a>
           </div>
         </div>
       </div>

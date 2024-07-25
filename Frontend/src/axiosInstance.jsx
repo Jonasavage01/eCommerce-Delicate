@@ -7,25 +7,26 @@ const axiosInstance = axios.create({
         'Content-Type': 'application/json',
         'Accept': 'application/json',
     },
+    withCredentials: true, 
 });
 
-// Interceptor para añadir el token de autorización y el token CSRF
-axiosInstance.interceptors.request.use(function (config) {
-    const token = localStorage.getItem('access_token');
-    if (token) {
-        config.headers.Authorization = `Bearer ${token}`;
+axiosInstance.interceptors.request.use(
+    function (config) {
+        const token = localStorage.getItem('access_token');
+        if (token) {
+            config.headers.Authorization = `Bearer ${token}`;
+        }
+        const csrftoken = getCookie('csrftoken');
+        if (csrftoken) {
+            config.headers['X-CSRFToken'] = csrftoken;
+        }
+        return config;
+    },
+    function (error) {
+        return Promise.reject(error);
     }
-    // Agrega el token CSRF a las solicitudes
-    const csrftoken = getCookie('csrftoken');
-    if (csrftoken) {
-        config.headers['X-CSRFToken'] = csrftoken;
-    }
-    return config;
-}, function (error) {
-    return Promise.reject(error);
-});
+);
 
-// Función para obtener el token CSRF
 function getCookie(name) {
     let cookieValue = null;
     if (document.cookie && document.cookie !== '') {
@@ -41,41 +42,34 @@ function getCookie(name) {
     return cookieValue;
 }
 
-// Manejo de la respuesta y errores
 axiosInstance.interceptors.response.use(
     response => response,
     error => {
         if (error.response) {
-            // El servidor respondió con un código de estado fuera del rango 2xx
             console.error('Response error:', error.response.data);
             if (error.response.status === 401) {
-                // Manejo de errores de autenticación
                 console.error('Authentication error:', error.response.data);
-                // Puedes agregar lógica para redirigir al usuario al login aquí
+                window.location.href = '/login';
+            } else if (error.response.status === 400) {
+                let errorMessage = 'An error occurred. Please try again later.';
+                if (error.response.data.email) {
+                    errorMessage = error.response.data.email[0];
+                } else if (error.response.data.password) {
+                    errorMessage = error.response.data.password[0];
+                } else if (error.response.data.detail) {
+                    errorMessage = error.response.data.detail;
+                } else if (typeof error.response.data === 'string') {
+                    errorMessage = error.response.data;
+                }
+                throw new Error(errorMessage);
             }
         } else if (error.request) {
-            // La solicitud fue hecha pero no se recibió respuesta
             console.error('Request error:', error.request);
         } else {
-            // Algo pasó al preparar la solicitud
             console.error('Error:', error.message);
         }
         return Promise.reject(error);
     }
 );
-
-// Ejemplo de uso para el registro de un nuevo usuario
-export const registerUser = async (email, password) => {
-    try {
-        const response = await axiosInstance.post('register/', {
-            email: email,
-            password: password
-        });
-        return response.data;
-    } catch (error) {
-        console.error('Registration error:', error);
-        throw new Error('An error occurred, please try again later.');
-    }
-};
 
 export default axiosInstance;

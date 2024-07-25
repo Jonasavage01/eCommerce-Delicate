@@ -1,6 +1,7 @@
 import React, { useContext, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { AuthContext } from '../context/AuthContext';
-import axiosInstance from '../axiosInstance';
+import axios from 'axios';
 import '../assets/css/LoginPage.css';
 import LoginImage from '../assets/images/RegisterLogin/login.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -12,23 +13,29 @@ const LoginPage = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
+  const navigate = useNavigate();
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (!email || !password) {
-      setError('Email and password are required');
-      return;
-    }
-    axiosInstance.post('token/', {
-      email: email,
-      password: password
-    }).then(response => {
-      if (response.data.access) {
-        login(response.data.access);
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    setError('');
+    try {
+      const response = await axios.post('http://127.0.0.1:8000/api/token/', { email, password });
+      if (response.data) {
+        localStorage.setItem('access_token', response.data.access);
+        localStorage.setItem('refresh_token', response.data.refresh);
+        login({ email, token: response.data.access });
+        navigate('/');
       } else {
-        setError('Invalid credentials');
+        setError('Invalid response from server.');
       }
-    }).catch(() => setError('An error occurred, please try again later.'));
+    } catch (error) {
+      console.error('Login error:', error);
+      if (error.response && error.response.data) {
+        setError(error.response.data.error || 'Invalid credentials');
+      } else {
+        setError('An error occurred, please try again later.');
+      }
+    }
   };
 
   return (
@@ -47,6 +54,7 @@ const LoginPage = () => {
                     placeholder="Email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
+                    required
                   />
                 </div>
                 <div className="mb-4 input-group">
@@ -57,6 +65,7 @@ const LoginPage = () => {
                     placeholder="Password"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
+                    required
                   />
                 </div>
                 {error && <p className="text-danger">{error}</p>}
@@ -73,9 +82,9 @@ const LoginPage = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6 d-none d-md-block">
+          <div className="col-md-6 d-none d-md-block position-relative">
             <img src={LoginImage} alt="Login" className="img-fluid rounded-end" />
-            <a href="/register" className="text-decoration-none mt-4 d-block text-center">I am not a member yet</a>
+            <a href="/register" className="text-decoration-none mt-4 d-block text-center position-absolute bottom-0 mb-4 w-100">I am not a member yet</a>
           </div>
         </div>
       </div>
