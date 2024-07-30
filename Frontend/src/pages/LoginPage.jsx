@@ -19,24 +19,25 @@ const LoginPage = () => {
     event.preventDefault();
     setError('');
     try {
-      const response = await axios.post('http://127.0.0.1:8000/api/token/', { email, password });
-      if (response.data) {
-        localStorage.setItem('access_token', response.data.access);
-        localStorage.setItem('refresh_token', response.data.refresh);
-        login({ email, token: response.data.access });
-        navigate('/');
-      } else {
-        setError('Invalid response from server.');
-      }
+        const response = await axios.post('http://127.0.0.1:8000/api/token/', { email, password });
+        if (response.data) {
+            localStorage.setItem('access_token', response.data.access);
+            localStorage.setItem('refresh_token', response.data.refresh);
+            login({ email, access_token: response.data.access, refresh_token: response.data.refresh });
+            navigate('/');
+        } else {
+            setError('Invalid response from server.');
+        }
     } catch (error) {
-      console.error('Login error:', error);
-      if (error.response && error.response.data) {
-        setError(error.response.data.error || 'Invalid credentials');
-      } else {
-        setError('An error occurred, please try again later.');
-      }
+        console.error('Login error:', error);
+        if (error.response && error.response.data) {
+            setError(error.response.data.detail || 'Invalid credentials');
+        } else {
+            setError('An error occurred, please try again later.');
+        }
     }
-  };
+};
+
 
   return (
     <div className="login-container vh-100 d-flex justify-content-center align-items-center">

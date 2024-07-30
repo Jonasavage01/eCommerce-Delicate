@@ -1,3 +1,5 @@
+# serializers.py
+
 from rest_framework import serializers
 from django.contrib.auth import get_user_model, authenticate
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
@@ -47,6 +49,7 @@ class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
             if user:
                 if not user.is_active:
                     raise serializers.ValidationError('User is inactive')
+                # Aquí ya no necesitas verificar si el email está verificado
                 data = super().validate(attrs)
                 data['user'] = {
                     'email': user.email
@@ -56,5 +59,7 @@ class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
                 raise serializers.ValidationError('Incorrect email or password')
         else:
             raise serializers.ValidationError('Must include "email" and "password"')
-        
+
+        return data
+
         return data

@@ -1,3 +1,4 @@
+import logging
 from rest_framework import generics, status
 from django.contrib.auth import get_user_model
 from rest_framework.permissions import AllowAny, IsAuthenticated
@@ -14,6 +15,7 @@ from django.core.exceptions import ValidationError
 from django.core.mail import send_mail
 
 User = get_user_model()
+logger = logging.getLogger(__name__)
 
 
 class RegisterView(APIView):
@@ -22,26 +24,35 @@ class RegisterView(APIView):
     def post(self, request):
         email = request.data.get('email')
         password = request.data.get('password')
+        
         try:
+            # Validar la contraseña usando el validador personalizado
             validator = CustomPasswordValidator()
             validator.validate(password)
+
+            # Verificar si el usuario ya existe
             if User.objects.filter(email=email).exists():
                 return Response({"error": "El correo electrónico ya está registrado."}, status=status.HTTP_400_BAD_REQUEST)
-            user = User.objects.create_user(username=email, email=email, password=password)
-            
-            # Enviar correo de verificación
-            send_mail(
-                'Verifica tu correo',
-                'Aquí está el mensaje.',
-                'from@example.com',
-                [email],
-                fail_silently=False,
-            )
-            
+
+            # Crear el usuario
+            user = User.objects.create_user(email=email, password=password)
+
+            # Eliminar o comentar la siguiente sección de envío de correo
+            # send_mail(
+            #     'Verifica tu correo',
+            #     'Aquí está el mensaje.',
+            #     'from@example.com',
+            #     [email],
+            #     fail_silently=False,
+            # )
+
             return Response({"message": "Usuario registrado exitosamente"}, status=status.HTTP_201_CREATED)
+
         except ValidationError as e:
+            logger.error(f"Validation Error: {e}")
             return Response({"error": str(e)}, status=status.HTTP_400_BAD_REQUEST)
         except Exception as e:
+            logger.error(f"Unexpected Error: {e}")
             return Response({"error": "Ocurrió un error inesperado."}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 class MyTokenObtainPairView(TokenObtainPairView):
@@ -62,7 +73,7 @@ class UserProfileView(APIView):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 class VerifyEmailView(APIView):
-    permission_classes = (AllowAny,)
+    permission_classes = [AllowAny]
 
     def get(self, request, uidb64, token, *args, **kwargs):
         try:
