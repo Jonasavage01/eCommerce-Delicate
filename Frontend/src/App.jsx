@@ -46,13 +46,13 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 2000);
 
     return () => clearTimeout(timer);
   }, []);
 
   if (loading) {
-    return <Loader minLoadTime={3000} />;
+    return <Loader minLoadTime={2000} />;
   }
 
   return (

@@ -153,31 +153,38 @@ a {
     z-index: 1040;
     animation: fadeIn 0.5s ease-in-out;
     overflow-y: auto;
+    padding: 20px;
+}
+
+.hamburger-menu-content {
+    text-align: center;
+    width: 100%;
 }
 
 .hamburger-menu-list {
     list-style: none;
     padding: 0;
-    text-align: center;
+    margin: 0;
 }
 
 .hamburger-menu-item {
-    margin: 15px 0;
+    margin: 20px 0;
 }
 
 .hamburger-menu-link {
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 700;
     text-transform: uppercase;
     position: relative;
     display: block;
-    padding: 10px 0;
-    transition: color 0.3s ease-in-out;
+    padding: 15px 0;
+    transition: color 0.3s ease-in-out, padding-left 0.3s ease-in-out;
 }
 
 .hamburger-menu-link:hover {
     color: #F28123;
+    padding-left: 10px; /* Adds a subtle shift effect on hover */
 }
 
 .hamburger-menu-link::after {
@@ -208,6 +215,11 @@ a {
     padding: 0;
 }
 
+.hamburger-menu-list {
+    border-top: 1px solid #fff;
+    padding-top: 20px;
+}
+
 /* Keyframes */
 @keyframes fadeIn {
     from {
@@ -215,6 +227,17 @@ a {
     }
     to {
         opacity: 1;
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .hamburger-menu-link {
+        font-size: 1.5rem;
+        padding: 10px 0;
+    }
+    .hamburger-menu .close-btn {
+        font-size: 2rem;
     }
 }
 
